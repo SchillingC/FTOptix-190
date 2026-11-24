@@ -463,9 +463,11 @@ def build(e, ox, oy, ctx, ind=0):
 
     if t == "numericInputCursorPoint":
         tg = tag_of(conn(e, "Value"))
-        kids = geo(e, ox, oy) + vis + [P("FontSize", "Size", fsize(e)), P("MinValue", "Double", 0.0), P("MaxValue", "Double", 9999.0)]
-        if tg: kids.append(link_prop("Value", "Double", tg[0], True))
-        return [N(name, "SpinBox", kids)]
+        kids = geo(e, ox, oy) + vis + [P("FontSize", "Size", fsize(e)),
+                                       P("TextHorizontalAlignment", "TextHorizontalAlignment", 2),
+                                       P("TextVerticalAlignment", "TextVerticalAlignment", 1)]
+        if tg: kids.append(link_prop("Text", "LocalizedText", tg[0], True))
+        return [N(name, "TextBox", kids)]
 
     if t == "alarmStatusList":
         groups = [LABEL_GROUP[x] for x in e.get("filteredTriggers", "").split(",") if x in LABEL_GROUP]

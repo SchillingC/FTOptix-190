@@ -30056,7 +30056,7 @@ Children:
       DataType: Size
       Value: 48.0
     - Name: numTag1_25
-      Type: SpinBox
+      Type: TextBox
       Children:
       - Name: HorizontalAlignment
         Type: BaseVariableType
@@ -30086,17 +30086,17 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 18.0
-      - Name: MinValue
+      - Name: TextHorizontalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MaxValue
+        DataType: TextHorizontalAlignment
+        Value: 2
+      - Name: TextVerticalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 9999.0
-      - Name: Value
+        DataType: TextVerticalAlignment
+        Value: 1
+      - Name: Text
         Type: BaseDataVariableType
-        DataType: Double
+        DataType: LocalizedText
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -30109,7 +30109,7 @@ Children:
             ModellingRule: Optional
             Value: 2
     - Name: numMonat1_26
-      Type: SpinBox
+      Type: TextBox
       Children:
       - Name: HorizontalAlignment
         Type: BaseVariableType
@@ -30139,17 +30139,17 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 18.0
-      - Name: MinValue
+      - Name: TextHorizontalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MaxValue
+        DataType: TextHorizontalAlignment
+        Value: 2
+      - Name: TextVerticalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 9999.0
-      - Name: Value
+        DataType: TextVerticalAlignment
+        Value: 1
+      - Name: Text
         Type: BaseDataVariableType
-        DataType: Double
+        DataType: LocalizedText
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -30162,7 +30162,7 @@ Children:
             ModellingRule: Optional
             Value: 2
     - Name: numJahr1_27
-      Type: SpinBox
+      Type: TextBox
       Children:
       - Name: HorizontalAlignment
         Type: BaseVariableType
@@ -30192,17 +30192,17 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 18.0
-      - Name: MinValue
+      - Name: TextHorizontalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MaxValue
+        DataType: TextHorizontalAlignment
+        Value: 2
+      - Name: TextVerticalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 9999.0
-      - Name: Value
+        DataType: TextVerticalAlignment
+        Value: 1
+      - Name: Text
         Type: BaseDataVariableType
-        DataType: Double
+        DataType: LocalizedText
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -30442,7 +30442,7 @@ Children:
       DataType: Size
       Value: 48.0
     - Name: numStunde1_31
-      Type: SpinBox
+      Type: TextBox
       Children:
       - Name: HorizontalAlignment
         Type: BaseVariableType
@@ -30472,17 +30472,17 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 18.0
-      - Name: MinValue
+      - Name: TextHorizontalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MaxValue
+        DataType: TextHorizontalAlignment
+        Value: 2
+      - Name: TextVerticalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 9999.0
-      - Name: Value
+        DataType: TextVerticalAlignment
+        Value: 1
+      - Name: Text
         Type: BaseDataVariableType
-        DataType: Double
+        DataType: LocalizedText
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -30495,7 +30495,7 @@ Children:
             ModellingRule: Optional
             Value: 2
     - Name: numMinute1_32
-      Type: SpinBox
+      Type: TextBox
       Children:
       - Name: HorizontalAlignment
         Type: BaseVariableType
@@ -30525,17 +30525,17 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 18.0
-      - Name: MinValue
+      - Name: TextHorizontalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 0.0
-      - Name: MaxValue
+        DataType: TextHorizontalAlignment
+        Value: 2
+      - Name: TextVerticalAlignment
         Type: BaseVariableType
-        DataType: Double
-        Value: 9999.0
-      - Name: Value
+        DataType: TextVerticalAlignment
+        Value: 1
+      - Name: Text
         Type: BaseDataVariableType
-        DataType: Double
+        DataType: LocalizedText
         Children:
         - Name: DynamicLink
           Type: DynamicLink
