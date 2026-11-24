@@ -1,7 +1,6 @@
 Name: UI
 Type: UICategoryFolder
 Children:
-Children:
 - Name: DefaultStyleSheet
   Type: StyleSheet
   Children:

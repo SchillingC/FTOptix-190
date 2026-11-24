@@ -548,7 +548,7 @@ def main():
     ctrl = f"{nodes}/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller_Tags/Controller_Tags.yaml"
     dump(tag_nodes(os.path.join(ROOT, "analysis", "HMI_flat_tags.csv")), ctrl)
     ui_src = open(f"{T}/Nodes/UI/UI.yaml", encoding="utf-8").read().split("\n")
-    style = "\n".join(ui_src[3:ui_src.index("- Name: RockwellStyleSheet")]) if "- Name: RockwellStyleSheet" in ui_src else ""
+    style = "\n".join(ui_src[4:ui_src.index("- Name: RockwellStyleSheet")])
     start = next(i for i, l in enumerate(ui_src) if l.startswith("- Name: NativePresentationEngine"))
     mw = next(i for i, l in enumerate(ui_src) if l.startswith("- Name: MainWindow"))
     engine = "\n".join(ui_src[start:mw])
