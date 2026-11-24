@@ -1,0 +1,11 @@
+Polygon2: animateColor not converted
+S0060_Diagnose/AlarmStatusListNotAusD: alarmStatusList not converted (alarm system pending)
+S0060_Diagnose/AlarmStatusListStoerungenD: alarmStatusList not converted (alarm system pending)
+S0060_Diagnose/AlarmStatusListWarnungen: alarmStatusList not converted (alarm system pending)
+S0061_Historie/Historie: alarmList not converted (alarm system pending)
+S0080_Einstellungen_Allgemeines/btnHelligkeitMinus: rampButton has no function yet
+S0080_Einstellungen_Allgemeines/btnHelligkeitPlus: rampButton has no function yet
+S0080_Einstellungen_Allgemeines/btnLogin: loginButton has no function yet
+S0080_Einstellungen_Allgemeines/btnLogout: logoutButton has no function yet
+S0080_Einstellungen_Allgemeines/btnShutdown: shutdownButton has no function yet
+image missing: Kreuz14x14
