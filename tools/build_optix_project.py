@@ -374,6 +374,11 @@ def build(e, ox, oy, ctx, ind=0):
         im = e.find("imageSettings")
         text = (cap.get("caption") if cap is not None else "") or ""
         img = im.get("imageName") if im is not None else ""
+        if not img:
+            for stt in e.findall("states/state"):
+                si = stt.find("imageSettings")
+                if si is not None and si.get("imageName") and stt.get("stateId") not in ("Error",):
+                    img = si.get("imageName"); break
         kids = geo(e, ox, oy) + vis
         kids += [DV("BackgroundColor", "Color", col(e.get("backColor"), "#c0c0c0")), P("FontSize", "Size", fsize(cap if cap is not None else e, 10)),
                  DV("TextColor", "Color", col((cap.get("color") if cap is not None else None), "#000000"))]
@@ -407,16 +412,22 @@ def build(e, ox, oy, ctx, ind=0):
 
     if t == "multistateIndicator":
         tg = tag_of(conn(e, "Indicator"))
+        tr = None
+        if not tg and conn(e, "Indicator"):
+            tr = translate(conn(e, "Indicator"))
+            if tr is None: WARN.append(f"{ctx.screen}/{e.get('name')}: indicator expression not converted")
         out = [N(name, "Rectangle", geo(e, ox, oy) + vis + [DV("FillColor", "Color", "#00ffffff"), P("BorderThickness", "Size", 0.0)])]
         st = e.find("states")
         for s in (st.findall("state") if st is not None else []):
-            if s.get("value") is None or not tg: continue
+            if s.get("value") is None or not (tg or tr): continue
+            if tr and s.get("value") not in ("0", "1"): continue
             kids = [P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
                     P("LeftMargin", "Size", 0.0), P("TopMargin", "Size", 0.0), P("Width", "Size", w), P("Height", "Size", h),
                     DV("FillColor", "Color", col(s.get("backColor"), "#ffffff")),
                     DV("BorderColor", "Color", col(s.get("borderColor"), "#808080")),
                     P("BorderThickness", "Size", 0.0 if e.get("borderStyle") == "none" else 2.0),
-                    expr_prop("Visible", "Boolean", "{0} == %s" % s.get("value"), [tg[0]], True)]
+                    expr_prop("Visible", "Boolean", "{0} == %s" % s.get("value"), [tg[0]], True) if tg else
+                    expr_prop("Visible", "Boolean", tr[0] if s.get("value") == "1" else "!(%s)" % tr[0], tr[1], True)]
             sim = s.find("imageSettings")
             img = sim.get("imageName") if sim is not None else ""
             im_n = image_node("Image", img, w, h, ctx)
