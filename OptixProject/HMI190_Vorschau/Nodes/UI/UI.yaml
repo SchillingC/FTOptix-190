@@ -262,6 +262,9 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Class: Reference
+      Target: ns=11;i=478
+      Direction: Forward
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment

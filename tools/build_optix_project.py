@@ -591,6 +591,7 @@ def main():
               DataType="NodeId", Value=f"{SCREENS}/{RETURN_TARGET}"),
             N("CurrentPanel", "NodePointer", [N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item")],
               DataType="NodeId", AccessLevel="Read"),
+            {"Class": "Reference", "Target": f"ns={NS_UI};i=478"},
             P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
             P("Width", "Size", 480.0), P("Height", "Size", 272.0)])]}
     emit(mainw, 0, out)
