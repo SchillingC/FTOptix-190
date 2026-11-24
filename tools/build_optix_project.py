@@ -88,7 +88,7 @@ def N(name, typ, children=None, **kw):
     if children: d["Children"] = [c for c in children if c]
     return d
 
-def P(name, dt, value=None, kind="BaseVariableType", children=None, optional=True, **kw):
+def P(name, dt, value=None, kind="BaseVariableType", children=None, optional=False, **kw):
     d = {"Name": name, "Type": kind, "DataType": dt}
     if optional: d["ModellingRule"] = "Optional"
     d.update(kw)
@@ -238,8 +238,7 @@ def image_node(name, img, w, h, ctx, left=0.0, top=0.0, color=None):
     ctx.images.add(img)
     kids = [P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
             P("LeftMargin", "Size", left), P("TopMargin", "Size", top), P("Width", "Size", float(w)), P("Height", "Size", float(h)),
-            DV("Path", "ResourceUri", f"ns=18;%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False),
-            DV("FillMode", "ImageFillModeEnum", 1)]
+            DV("Path", "ResourceUri", f"ns=18;%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False)]
     return N(name, "Image", kids)
 
 def nav_event(target):

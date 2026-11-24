@@ -265,21 +265,17 @@ Children:
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
-      ModellingRule: Optional
       Value: 0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
-      ModellingRule: Optional
       Value: 0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
-      ModellingRule: Optional
       Value: 480.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
-      ModellingRule: Optional
       Value: 272.0
 - File: Screens/Screens.yaml
