@@ -210,7 +210,7 @@ def visibility(e):
 def fill_props(e, transparent_default=False):
     solid = e.get("backStyle", "solid") == "solid" and not transparent_default
     border = e.get("borderStyle", "none")
-    return [DV("FillColor", "Color", col(e.get("backColor")) if solid else "#00ffffff", optional=True),
+    return [DV("FillColor", "Color", col(e.get("backColor")) if solid else "#ffffff00", optional=True),
             DV("BorderColor", "Color", col(e.get("borderColor"), "#808080"), optional=True),
             P("BorderThickness", "Size", 0.0 if border == "none" else float(min(int(e.get("borderWidth", 2) or 2), 2)))]
 
@@ -416,7 +416,7 @@ def build(e, ox, oy, ctx, ind=0):
         if not tg and conn(e, "Indicator"):
             tr = translate(conn(e, "Indicator"))
             if tr is None: WARN.append(f"{ctx.screen}/{e.get('name')}: indicator expression not converted")
-        out = [N(name, "Rectangle", geo(e, ox, oy) + vis + [DV("FillColor", "Color", "#00ffffff"), P("BorderThickness", "Size", 0.0)])]
+        out = [N(name, "Rectangle", geo(e, ox, oy) + vis + [DV("FillColor", "Color", "#ffffff00"), P("BorderThickness", "Size", 0.0)])]
         st = e.find("states")
         for s in (st.findall("state") if st is not None else []):
             if s.get("value") is None or not (tg or tr): continue

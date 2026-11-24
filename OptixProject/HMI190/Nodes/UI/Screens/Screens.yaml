@@ -140,7 +140,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -636,7 +636,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -771,7 +771,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -1371,7 +1371,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -1971,7 +1971,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -2571,7 +2571,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -3171,7 +3171,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -4066,7 +4066,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -4688,7 +4688,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -6544,7 +6544,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -6679,7 +6679,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -7279,7 +7279,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -7879,7 +7879,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -8732,7 +8732,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -9201,7 +9201,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -9301,7 +9301,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -9436,7 +9436,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -10331,7 +10331,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -11226,7 +11226,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -12148,7 +12148,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -13043,7 +13043,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -13938,7 +13938,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -14833,7 +14833,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -15693,7 +15693,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -15828,7 +15828,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -16750,7 +16750,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -17645,7 +17645,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -18540,7 +18540,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -19400,7 +19400,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -19535,7 +19535,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -20430,7 +20430,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -23567,7 +23567,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -24462,7 +24462,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -25379,7 +25379,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -27618,7 +27618,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -28708,7 +28708,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -28808,7 +28808,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -29039,7 +29039,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -29180,7 +29180,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -29315,7 +29315,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -30232,7 +30232,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -31113,7 +31113,7 @@ Children:
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderThickness
       Type: BaseVariableType
       DataType: Size
@@ -31642,7 +31642,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -32030,7 +32030,7 @@ Children:
         - Name: FillColor
           Type: BaseDataVariableType
           DataType: Color
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderThickness
           Type: BaseVariableType
           DataType: Size
@@ -32418,7 +32418,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -32970,7 +32970,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -33070,7 +33070,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -33170,7 +33170,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -33274,7 +33274,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -33374,7 +33374,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -34581,7 +34581,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -34698,7 +34698,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -34815,7 +34815,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -34919,7 +34919,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -35023,7 +35023,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -35127,7 +35127,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -35227,7 +35227,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -35327,7 +35327,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -35427,7 +35427,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -35595,7 +35595,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
@@ -35695,7 +35695,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
@@ -35799,7 +35799,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -35899,7 +35899,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -36003,7 +36003,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -36102,7 +36102,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -36436,7 +36436,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
@@ -36540,7 +36540,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
@@ -36640,7 +36640,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
@@ -36802,7 +36802,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
@@ -36902,7 +36902,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#00ffffff"
+          Value: "#ffffff00"
         - Name: BorderColor
           Type: BaseDataVariableType
           DataType: Color
@@ -37672,7 +37672,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -37772,7 +37772,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -37899,7 +37899,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -37999,7 +37999,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38099,7 +38099,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38199,7 +38199,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38299,7 +38299,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38399,7 +38399,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38499,7 +38499,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38599,7 +38599,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38698,7 +38698,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -38886,7 +38886,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -39074,7 +39074,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -39262,7 +39262,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -39450,7 +39450,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -39638,7 +39638,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -39826,7 +39826,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00ffffff"
+        Value: "#ffffff00"
       - Name: BorderThickness
         Type: BaseVariableType
         DataType: Size
@@ -40402,7 +40402,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -41382,7 +41382,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -41700,7 +41700,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -41799,7 +41799,7 @@ Children:
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderThickness
       Type: BaseVariableType
       DataType: Size
@@ -42136,7 +42136,7 @@ Children:
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderThickness
       Type: BaseVariableType
       DataType: Size
@@ -42474,7 +42474,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -42574,7 +42574,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -42793,7 +42793,7 @@ Children:
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderThickness
       Type: BaseVariableType
       DataType: Size
@@ -43131,7 +43131,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#00ffffff"
+      Value: "#ffffff00"
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
