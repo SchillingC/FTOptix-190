@@ -340,7 +340,7 @@ def build(e, ox, oy, ctx, ind=0):
                                  P("Width", "Size", w), P("Height", "Size", h), P("TextHorizontalAlignment", "TextHorizontalAlignment", 2),
                                  P("TextVerticalAlignment", "TextVerticalAlignment", 1), DV("TextColor", "Color", col(e.get("foreColor"))),
                                  P("FontSize", "Size", fsize(e)),
-                                 link_prop("Text", "LocalizedText", "{Session}/CurrentTime")])])]
+                                 link_prop("Text", "LocalizedText", f"/Objects/{PROJ}/UI/MainWindow/ClockLogic/Time")])])]
 
     if t in ("stringDisplay", "numericDisplay"):
         ex = conn(e, "Value")
@@ -591,6 +591,7 @@ def main():
     mainw = {"Name": "MainWindow", "Supertype": "Window", "Children": [
         DV("Width", "Size", 480.0, optional=True), DV("Height", "Size", 272.0, optional=True),
         DV("Caption", "String", "HMI190", optional=False),
+        N("ClockLogic", "NetLogic", [DV("Time", "DateTime", optional=False), DV("UTCTime", "DateTime", optional=False)]),
         N("PanelLoader1", "PanelLoader", [
             N("Panel", "NodePointer", [N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container")],
               DataType="NodeId", Value=f"{SCREENS}/{RETURN_TARGET}"),
@@ -599,6 +600,8 @@ def main():
             {"Class": "Reference", "Target": f"ns={NS_UI};i=478"},
             P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
             P("Width", "Size", 480.0), P("Height", "Size", 272.0)])]}
+    os.makedirs(f"{O}/ProjectFiles/NetSolution", exist_ok=True)
+    shutil.copy(os.path.join(ROOT, "tools", "ClockLogic.cs"), f"{O}/ProjectFiles/NetSolution/ClockLogic.cs")
     emit(mainw, 0, out)
     ui_txt += "\n" + "\n".join(out) + "\n- File: Screens/Screens.yaml\n"
     ui_txt = ui_txt.replace("Optix_Sample_AzureIoTOperations", PROJ)

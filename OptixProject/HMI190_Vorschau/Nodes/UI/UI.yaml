@@ -241,6 +241,15 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "HMI190"
+  - Name: ClockLogic
+    Type: NetLogic
+    Children:
+    - Name: Time
+      Type: BaseDataVariableType
+      DataType: DateTime
+    - Name: UTCTime
+      Type: BaseDataVariableType
+      DataType: DateTime
   - Name: PanelLoader1
     Type: PanelLoader
     Children:

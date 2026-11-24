@@ -192,7 +192,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{Session}/CurrentTime"
+            Value: "/Objects/HMI190/UI/MainWindow/ClockLogic/Time"
   - Name: txtSeitenname_4
     Type: Rectangle
     Children:
@@ -8062,7 +8062,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{Session}/CurrentTime"
+            Value: "/Objects/HMI190/UI/MainWindow/ClockLogic/Time"
   - Name: txtSeitenname_4
     Type: Rectangle
     Children:
