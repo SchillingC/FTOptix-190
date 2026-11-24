@@ -101,7 +101,7 @@ def DV(name, dt, value=None, children=None, **kw):
     return P(name, dt, value, "BaseDataVariableType", children, **kw)
 
 def link(path, rw=False):
-    c = [P("Mode", "DynamicLinkMode", 2)] if rw else None
+    c = [P("Mode", "DynamicLinkMode", 2, optional=True)] if rw else None
     return N("DynamicLink", "DynamicLink", c, DataType="NodePath", Value=path)
 
 def expr_prop(name, dt, expression, sources, default=None, **kw):
@@ -249,10 +249,10 @@ def nav_event(target):
     return N("MouseClickEventHandler1", "EventHandler", [
         N("ListenEventType", "PropertyType", DataType="NodeId", Value="/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"),
         N("MethodsToCall", "BaseObjectType", [N("MethodContainer1", "BaseObjectType", [
-            N(f"ns={NS_UI};ObjectPointer", "NodePointer", [
+            N(f"ns={NS_CB};ObjectPointer", "NodePointer", [
                N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType"),
                link(f"{LOADER}@NodeId", True)], DataType="NodeId"),
-            DV(f"ns={NS_UI};Method", "String", "ChangePanel", optional=False),
+            DV(f"ns={NS_CB};Method", "String", "ChangePanel", optional=False),
             N("InputArguments", "BaseObjectType", [
                 DV("NewPanel", "NodeId", f"{SCREENS}/{target}", optional=False),
                 DV("AliasNode", "NodeId", optional=False, ValueRank="ScalarOrOneDimension")])])]),
