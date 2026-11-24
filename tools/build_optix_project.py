@@ -60,6 +60,9 @@ def emit(n, ind, out):
             v = n[k]
             if k == "Name" and re.search(r"[:\s#]", v): v = f"'{v}'" if "'" not in v else json.dumps(v)
             elif k == "Id": pass
+            elif k == "Value" and v == "@@NAV@@":
+                # loader is the runtime parent of the screen; depth depends on nesting of the button
+                v = '"' + "../" * (8 + (ind - 12) // 2) + 'PanelLoader1@NodeId"'
             elif k in ("Value", "Description"): v = val(v)
             elif k == "ArrayDimensions": v = val(v)
             out.append(f"{pre}{'- ' if first else '  '}{k}: {v}")
@@ -251,7 +254,7 @@ def nav_event(target):
         N("MethodsToCall", "BaseObjectType", [N("MethodContainer1", "BaseObjectType", [
             N(f"ns={NS_CB};ObjectPointer", "NodePointer", [
                N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType"),
-               link(f"{LOADER}@NodeId", True)], DataType="NodeId"),
+               link("@@NAV@@", True)], DataType="NodeId"),
             DV(f"ns={NS_CB};Method", "String", "ChangePanel", optional=False),
             N("InputArguments", "BaseObjectType", [
                 DV("NewPanel", "NodeId", f"{SCREENS}/{target}", optional=False),

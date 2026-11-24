@@ -413,7 +413,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -541,7 +541,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -9537,7 +9537,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -9665,7 +9665,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -24541,7 +24541,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -24669,7 +24669,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -27754,7 +27754,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -28265,7 +28265,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -29549,7 +29549,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -29812,7 +29812,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -29979,7 +29979,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -33152,7 +33152,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -35546,7 +35546,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -35809,7 +35809,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -36017,7 +36017,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -42083,7 +42083,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -42296,7 +42296,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -42604,7 +42604,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -43037,7 +43037,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -43250,7 +43250,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
@@ -43417,7 +43417,7 @@ Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+              Value: "../../../../../../../../PanelLoader1@NodeId"
               Children:
               - Name: Mode
                 Type: BaseVariableType
@@ -43782,7 +43782,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "/Objects/HMI190/UI/MainWindow/PanelLoader1@NodeId"
+                Value: "../../../../../../../../../PanelLoader1@NodeId"
                 Children:
                 - Name: Mode
                   Type: BaseVariableType
