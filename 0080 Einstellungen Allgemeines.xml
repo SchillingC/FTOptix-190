@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-ME16.xsd">
+    <displaySettings displayType="replace" securityCode="*" backColor="gray" maximumTagUpdateRate="0.25" focusHighlightColor="lime" disableFocusHighlight="true" width="480" height="272" displayNumber="80" disableInitialInputFocus="false" startupMacro="" shutdownMacro="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <rectangle name="Hintergrund" height="20" width="480" left="0" top="0" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithoutExpression" linkBaseObject="Kopf_Fuss.Hintergrund" backStyle="solid" backColor="#0000A0" foreColor="#0000A0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="#000058" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="txtSeitenname" height="20" width="464" left="0" top="0" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" backColor="#0000A0" foreColor="white" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="80 - Allgemeine Einstellungen"/>
+    <panel name="HintergrundFuss" height="48" width="480" left="0" top="224" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="false" linkAnimations="linkWithoutExpression" linkBaseObject="Kopf_Fuss.HintergrundFuss" backStyle="solid" patternStyle="none" backColor="#ECECEC" patternColor="white" blink="false" description="" borderColor="gray" borderStyle="none" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Login" visible="true" wallpaper="false" isReferenceObject="false">
+        <loginButton name="btnLogin" height="48" width="48" left="290" top="32" visible="true" isReferenceObject="false" audio="true" backColor="#A0A0A4" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" domainNameVisible="false" domainNameDisable="false" hideUserNameEntry="false" useVariableDomainName="false" domainName="">
+            <caption fontFamily="Arial" fontSize="15" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="BENUTZER1" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+        </loginButton>
+        <logoutButton name="btnLogout" height="48" width="48" left="338" top="32" visible="true" isReferenceObject="false" audio="true" backColor="#A0A0A4" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" showDisplayOnLogout="false" display="" parameterFile="" parameterList="" parameterType="parameterFile">
+            <caption fontFamily="Arial" fontSize="15" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="Logout" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+        </logoutButton>
+    </group>
+    <group name="Helligkeit" visible="true" wallpaper="false" isReferenceObject="false">
+        <numericDisplay name="numHelligkeit" height="48" width="112" left="60" top="159" visible="true" isReferenceObject="false" backColor="#E0E0E0" backStyle="solid" borderColor="#F0F0F0" borderStyle="inset" borderUsesBackColor="true" borderWidth="4" foreColor="black" alignment="middleLeft" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="0" numberOfDigits="4" fillLeftWith="spaces" fontFamily="Arial" fontSize="16" bold="true" italic="true" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <connections>
+                <connection name="Value" expression="Helligkeit"/>
+            </connections>
+        </numericDisplay>
+        <rampButton name="btnHelligkeitPlus" height="48" width="48" left="12" top="159" visible="true" isReferenceObject="false" audio="true" backColor="#A0A0A4" backStyle="solid" shape="rectangle" borderWidth="4" borderStyle="raised" borderUsesBackColor="true" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" touch="true" autoRepeatDelay="400" autoRepeatRate="3" blink="false" limitValue="100" rampType="up" rampValue="1" useVariableLimit="false" useVariableRamp="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false" captionOnBorder="false">
+            <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="BTN_HelligPlus" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+            <connections>
+                <connection name="Value" expression="Helligkeit"/>
+            </connections>
+        </rampButton>
+        <rampButton name="btnHelligkeitMinus" height="48" width="48" left="172" top="159" visible="true" isReferenceObject="false" audio="true" backColor="#A0A0A4" backStyle="solid" shape="rectangle" borderWidth="4" borderStyle="raised" borderUsesBackColor="true" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" touch="true" autoRepeatDelay="400" autoRepeatRate="3" blink="false" limitValue="30" rampType="down" rampValue="1" useVariableLimit="false" useVariableRamp="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false" captionOnBorder="false">
+            <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="BTN_HelligMinus" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+            <connections>
+                <connection name="Value" expression="Helligkeit"/>
+            </connections>
+        </rampButton>
+        <text name="txtProzent" height="48" width="24" left="144" top="159" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="16" bold="true" italic="true" underline="false" strikethrough="false" caption="%"/>
+    </group>
+    <momentaryButton name="btnLampentest" height="48" width="48" left="346" top="158" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="1" captionOnBorder="false">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="19" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" backColor="#A0A0A4" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="BTN_Lampentest" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+            </state>
+            <state stateId="1" backColor="#A0A0A4" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="BTN_Lampentest" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+            </state>
+        </states>
+        <connections>
+            <connection name="Value" expression="{[PLC1]HMI.General.BtnLamptest.On}"/>
+        </connections>
+    </momentaryButton>
+    <group name="Berechtigung" visible="true" wallpaper="false" isReferenceObject="false">
+        <image name="ImgBerechtigung" height="20" width="20" left="380" top="0" visible="true" isReferenceObject="false" imageBackStyle="solid" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="BENUTZER1"/>
+        <stringDisplay name="lblBerechtigung" height="20" width="80" left="400" top="0" visible="true" isReferenceObject="false" backColor="#0000A0" backStyle="solid" borderColor="#E0E0E0" borderStyle="none" borderUsesBackColor="false" borderWidth="6" foreColor="white" alignment="middleCenter" blink="false" wordWrap="true" patternColor="white" patternStyle="none" description="" fontFamily="Arial" fontSize="10" bold="true" italic="true" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <connections>
+                <connection name="Value" expression="system\User"/>
+            </connections>
+        </stringDisplay>
+    </group>
+    <shutdownButton name="btnShutdown" height="48" width="48" left="300" top="224" visible="true" wallpaper="false" isReferenceObject="false" audio="true" backColor="red" backStyle="solid" borderStyle="raised" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="#A0A0A4" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="Administrators" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false">
+        <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="EXIT" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+        <animations>
+            <animateVisibility expression="CurrentUserHasCode( C )" expressionTrueState="visible"/>
+        </animations>
+    </shutdownButton>
+    <group name="Register2" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.Register2">
+        <image name="imgRegister2" height="42" width="58" left="419" top="227" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.imgRegister2" imageBackStyle="solid" imageBackColor="gray" imageColor="white" imageBlink="false" description="" imageName="Info56x76"/>
+        <gotoButton name="btnRegister2" height="48" width="64" left="416" top="224" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.btnRegister2" audio="false" backColor="#D6D6D6" backStyle="transparent" borderStyle="raised" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="gray" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" UseVariableDisplay="false" UseVariableDisplayPosition="false" display="0081 Information" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="false" blink="false"/>
+        </gotoButton>
+    </group>
+    <group name="Register4" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.Register4">
+        <panel name="pnlRegister4" height="42" width="58" left="419" top="71" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.pnlRegister4" backStyle="solid" patternStyle="none" backColor="gray" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="none" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <gotoButton name="btnRegister4" height="48" width="64" left="416" top="68" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.btnRegister4" audio="false" backColor="#D6D6D6" backStyle="transparent" borderStyle="raised" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="gray" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" UseVariableDisplay="false" UseVariableDisplayPosition="false" display="0084 SPS-Fehler" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="15" bold="true" italic="false" underline="false" strikethrough="false" caption="SPS" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+        </gotoButton>
+        <animations>
+            <animateVisibility expression="IF ({[PLC1]@Status} == &quot;Faulted&quot;) OR CurrentUserHasCode( B )&#xA;THEN 1&#xA;ELSE 0" expressionTrueState="visible"/>
+        </animations>
+    </group>
+    <gotoButton name="btnDiagnose" height="48" width="48" left="108" top="224" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Kopf_Fuss.btnDiagnose" audio="true" backColor="#A0A0A4" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="gray" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" UseVariableDisplay="false" UseVariableDisplayPosition="false" display="0060 Diagnose" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" keyAssignment="F3">
+        <caption fontFamily="Arial" fontSize="24" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="btnDiagnose28x28" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+    </gotoButton>
+    <group name="Datum" visible="true" wallpaper="false" isReferenceObject="false">
+        <numericInputCursorPoint name="numTag1" height="48" width="48" left="10" top="94" visible="true" isReferenceObject="false" alignment="middleCenter" audio="true" backStyle="solid" backColor="silver" foreColor="black" blink="false" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="2" decimalPlaces="0" fixedPosition="stripped" fillLeftWith="zeroes" numericPopup="keypad" fontFamily="Arial" fontSize="16" bold="false" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="false" captionOnPad="" minValue="0" maxValue="31" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false">
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.General.RemoteDateTime.Day}"/>
+                <connection name="Enter" expression="{[PLC1]HMI.General.BtnClockEnter.On}"/>
+                <connection name="Enter Handshake" expression="{[PLC1]HMI.General.BtnClockEnter.Handshake}"/>
+            </connections>
+        </numericInputCursorPoint>
+        <numericInputCursorPoint name="numMonat1" height="48" width="48" left="75" top="94" visible="true" isReferenceObject="false" alignment="middleCenter" audio="true" backStyle="solid" backColor="silver" foreColor="black" blink="false" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="2" decimalPlaces="0" fixedPosition="stripped" fillLeftWith="zeroes" numericPopup="keypad" fontFamily="Arial" fontSize="16" bold="false" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="false" captionOnPad="" minValue="0" maxValue="12" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false">
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.General.RemoteDateTime.Month}"/>
+                <connection name="Enter" expression="{[PLC1]HMI.General.BtnClockEnter.On}"/>
+                <connection name="Enter Handshake" expression="{[PLC1]HMI.General.BtnClockEnter.Handshake}"/>
+            </connections>
+        </numericInputCursorPoint>
+        <numericInputCursorPoint name="numJahr1" height="48" width="64" left="140" top="94" visible="true" isReferenceObject="false" alignment="middleCenter" audio="true" backStyle="solid" backColor="silver" foreColor="black" blink="false" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="4" decimalPlaces="0" fixedPosition="stripped" fillLeftWith="zeroes" numericPopup="keypad" fontFamily="Arial" fontSize="16" bold="false" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="false" captionOnPad="" minValue="0" maxValue="9999" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false">
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.General.RemoteDateTime.Year}"/>
+                <connection name="Enter" expression="{[PLC1]HMI.General.BtnClockEnter.On}"/>
+                <connection name="Enter Handshake" expression="{[PLC1]HMI.General.BtnClockEnter.Handshake}"/>
+            </connections>
+        </numericInputCursorPoint>
+        <text name="txtPunkt3" height="24" width="7" left="65" top="117" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="16" bold="true" italic="false" underline="false" strikethrough="false" caption="."/>
+        <text name="txtPunkt4" height="24" width="7" left="128" top="117" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="24" charWidth="10" bold="true" italic="false" underline="false" strikethrough="false" caption="."/>
+    </group>
+    <group name="Uhrzeit" visible="true" wallpaper="false" isReferenceObject="false">
+        <numericInputCursorPoint name="numStunde1" height="48" width="48" left="230" top="94" visible="true" isReferenceObject="false" alignment="middleCenter" audio="true" backStyle="solid" backColor="silver" foreColor="black" blink="false" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="gray" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="2" decimalPlaces="0" fixedPosition="stripped" fillLeftWith="none" numericPopup="keypad" fontFamily="Arial" fontSize="16" bold="false" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="false" captionOnPad="" minValue="0" maxValue="24" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false">
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.General.RemoteDateTime.Hour}"/>
+                <connection name="Enter" expression="{[PLC1]HMI.General.BtnClockEnter.On}"/>
+                <connection name="Enter Handshake" expression="{[PLC1]HMI.General.BtnClockEnter.Handshake}"/>
+            </connections>
+        </numericInputCursorPoint>
+        <numericInputCursorPoint name="numMinute1" height="48" width="48" left="297" top="94" visible="true" isReferenceObject="false" alignment="middleCenter" audio="true" backStyle="solid" backColor="silver" foreColor="black" blink="false" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" touch="true" horizontalMargin="0" verticalMargin="0" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" keyNavigation="true" decimalPoint="implicit" digitsAfterDecimalPoint="0" numberOfDigits="2" decimalPlaces="0" fixedPosition="stripped" fillLeftWith="zeroes" numericPopup="keypad" fontFamily="Arial" fontSize="16" bold="false" italic="false" underline="false" strikethrough="false" rampValue="0" useVariableMinMax="false" captionOnPad="" minValue="0" maxValue="59" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false">
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.General.RemoteDateTime.Minute}"/>
+                <connection name="Enter" expression="{[PLC1]HMI.General.BtnClockEnter.On}"/>
+                <connection name="Enter Handshake" expression="{[PLC1]HMI.General.BtnClockEnter.Handshake}"/>
+            </connections>
+        </numericInputCursorPoint>
+        <text name="txtDoppelpunkt1" height="24" width="8" left="282" top="114" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="16" bold="true" italic="false" underline="false" strikethrough="false" caption=":"/>
+    </group>
+    <panel name="pnlRegister1aktiv" height="48" width="6" left="408" top="20" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.pnlRegister1aktiv" backStyle="solid" patternStyle="none" backColor="#F0F000" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="none" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text1" height="48" width="64" left="416" top="20" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="white" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="11" bold="true" italic="true" underline="false" strikethrough="false" caption="System"/>
+    <group name="AutoMode" visible="true" wallpaper="false" isReferenceObject="false">
+        <multistateIndicator name="msiAutoMode" height="48" width="48" left="0" top="224" visible="true" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="4" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="5">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="AUTO&#xA;Mode" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="black" backColor="white" scaled="true" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="AUTO&#xA;Mode" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="black" backColor="#00C000" scaled="true" blink="false"/>
+                </state>
+                <state stateId="2" value="2" backColor="white" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="AUTO&#xA;Mode" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="black" backColor="yellow" scaled="true" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="white" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="AUTO&#xA;Mode" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="gray" backColor="silver" scaled="true" blink="false"/>
+                </state>
+                <state stateId="4" value="4" backColor="red" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="AUTO&#xA;Mode" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="black" backColor="red" scaled="true" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.General.Automatic.Msi}"/>
+            </connections>
+        </multistateIndicator>
+        <momentaryButton name="btnAutoMode" height="48" width="48" left="0" top="224" visible="true" isReferenceObject="false" audio="true" backStyle="transparent" borderStyle="raised" borderUsesBackColor="false" borderWidth="4" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="0" captionOnBorder="false">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" backColor="#A0A0A4" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" backColor="navy" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <animations>
+                <animateVisibility expression="{[PLC1]HMI.General.Automatic.Enable}" expressionTrueState="visible"/>
+            </animations>
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.General.Automatic.On}"/>
+            </connections>
+        </momentaryButton>
+        <animations>
+            <animateVisibility expression="{[PLC1]HMI.General.Automatic.Visible}" expressionTrueState="visible"/>
+        </animations>
+    </group>
+    <group name="ManualMode" visible="true" wallpaper="false" isReferenceObject="false">
+        <multistateIndicator name="msiManualMode" height="48" width="48" left="55" top="224" visible="true" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="4" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="5">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAN&#xA;Mode" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="black" backColor="white" scaled="true" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAN&#xA;Mode" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="black" backColor="#00C000" scaled="true" blink="false"/>
+                </state>
+                <state stateId="2" value="2" backColor="white" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAN&#xA;Mode" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="black" backColor="yellow" scaled="true" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="white" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAN&#xA;Mode" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="gray" backColor="silver" scaled="true" blink="false"/>
+                </state>
+                <state stateId="4" value="4" backColor="red" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MAN&#xA;Mode" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="leer48x48" alignment="middleCenter" backStyle="solid" color="black" backColor="red" scaled="true" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.General.Manual.Msi}"/>
+            </connections>
+        </multistateIndicator>
+        <momentaryButton name="btnManualMode" height="48" width="48" left="55" top="224" visible="true" isReferenceObject="false" audio="true" backStyle="transparent" borderStyle="raised" borderUsesBackColor="false" borderWidth="4" buttonAction="normallyOpen" description="" holdTime="250" highlightColor="lime" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" currentStateId="1" captionOnBorder="false">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" backColor="#A0A0A4" borderColor="#A0A0A4" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" backColor="navy" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <animations>
+                <animateVisibility expression="{[PLC1]HMI.General.Manual.Enable}" expressionTrueState="visible"/>
+            </animations>
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.General.Manual.On}"/>
+            </connections>
+        </momentaryButton>
+        <animations>
+            <animateVisibility expression="{[PLC1]HMI.General.Manual.Visible} AND CurrentUserHasCode( B )" expressionTrueState="visible"/>
+        </animations>
+    </group>
+    <multistateIndicator name="MultistateIndicator1" height="48" width="96" left="234" top="158" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+        <states>
+            <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="kurzer Tänzer&#xA;aktiv" color="lime" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+            <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="langer Tänzer&#xA;aktiv" color="blue" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            </state>
+        </states>
+        <animations>
+            <animateVisibility expression="CurrentUserHasCode( B )" expressionTrueState="visible"/>
+        </animations>
+        <connections>
+            <connection name="Indicator" expression="{[PLC1]HMI.Enable.Long_Dancer}"/>
+        </connections>
+    </multistateIndicator>
+    <group name="Register6" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.Register6">
+        <panel name="pnlRegister2" height="42" width="58" left="419" top="120" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.pnlRegister2" backStyle="solid" patternStyle="none" backColor="gray" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="none" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <gotoButton name="btnStationsmerker" height="48" width="64" left="416" top="117" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.btnStationsmerker" audio="false" backColor="#D6D6D6" backStyle="transparent" borderStyle="raised" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="gray" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" UseVariableDisplay="false" UseVariableDisplayPosition="false" display="0085 Stationsmerker" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="15" bold="true" italic="false" underline="false" strikethrough="false" caption="SM" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+        </gotoButton>
+        <animations>
+            <animateVisibility expression="IF CurrentUserHasCode( B )&#xA;THEN 1&#xA;ELSE 0" expressionTrueState="visible"/>
+        </animations>
+    </group>
+    <group name="Sprache" visible="true" wallpaper="false" isReferenceObject="false">
+        <group name="Deutsch" visible="true" isReferenceObject="false">
+            <multistateIndicator name="msiDeutsch" height="48" width="64" left="13" top="32" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="line" borderUsesBackColor="true" borderWidth="8" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="19" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" value="0" backColor="#A0A0A4" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="Deutschland" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+                    </state>
+                    <state stateId="1" value="1" backColor="#40FF10" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="Deutschland" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+                    </state>
+                </states>
+                <connections>
+                    <connection name="Indicator" expression="CurrentLanguage(  ) =&quot;de-DE&quot;"/>
+                </connections>
+            </multistateIndicator>
+            <languageSwitchButton name="lsbDeutsch" height="48" width="64" left="13" top="32" visible="true" isReferenceObject="false" language="de-DE" audio="true" backColor="#A0A0A4" backStyle="transparent" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                <animations>
+                    <animateVisibility expression="CurrentLanguage(  ) =&quot;de-DE&quot;" expressionTrueState="invisible"/>
+                </animations>
+            </languageSwitchButton>
+        </group>
+        <group name="Englisch_USA" visible="true" isReferenceObject="false">
+            <multistateIndicator name="msiEnglisch_USA" height="48" width="64" left="77" top="32" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="line" borderUsesBackColor="true" borderWidth="8" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                <states>
+                    <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="19" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="0" value="0" backColor="#A0A0A4" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="USA" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                    <state stateId="1" value="1" backColor="#40FF10" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                        <imageSettings imageName="USA" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="false" blink="false"/>
+                    </state>
+                </states>
+                <connections>
+                    <connection name="Indicator" expression="CurrentLanguage(  ) =&quot;en-GB&quot;"/>
+                </connections>
+            </multistateIndicator>
+            <languageSwitchButton name="lsbEnglisch_USA" height="48" width="64" left="77" top="32" visible="true" isReferenceObject="false" language="en-GB" audio="true" backColor="#A0A0A4" backStyle="transparent" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                <animations>
+                    <animateVisibility expression="CurrentLanguage(  ) =&quot;en-GB&quot;" expressionTrueState="invisible"/>
+                </animations>
+            </languageSwitchButton>
+        </group>
+    </group>
+    <group name="Spanisch" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Flaggen_Sprachen.Spanisch">
+        <multistateIndicator name="msiSpanisch" height="48" width="64" left="142" top="32" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Flaggen_Sprachen.msiSpanisch" backStyle="solid" borderStyle="line" borderUsesBackColor="true" borderWidth="8" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="19" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="#A0A0A4" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Spanisch" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="#40FF10" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Spanisch" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="CurrentLanguage(  ) =&quot;es-ES&quot;"/>
+            </connections>
+        </multistateIndicator>
+        <languageSwitchButton name="lsbSpanisch" height="48" width="64" left="142" top="32" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Flaggen_Sprachen.lsbSpanisch" language="es-ES" audio="true" backColor="#A0A0A4" backStyle="transparent" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="20" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+            <animations>
+                <animateVisibility expression="CurrentLanguage(  )=&quot;ja-JP&quot;" expressionTrueState="invisible"/>
+            </animations>
+        </languageSwitchButton>
+    </group>
+</gfx>

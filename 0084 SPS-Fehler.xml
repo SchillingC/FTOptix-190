@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-ME16.xsd">
+    <displaySettings displayType="replace" securityCode="*" backColor="gray" maximumTagUpdateRate="0.25" focusHighlightColor="lime" disableFocusHighlight="true" width="480" height="272" displayNumber="83" disableInitialInputFocus="false" startupMacro="" shutdownMacro="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <rectangle name="Hintergrund" height="20" width="480" left="0" top="0" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithoutExpression" linkBaseObject="Kopf_Fuss.Hintergrund" backStyle="solid" backColor="#0000A0" foreColor="#0000A0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="#000058" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="txtSeitenname" height="20" width="480" left="0" top="0" visible="true" wallpaper="false" isReferenceObject="false" backStyle="solid" backColor="#0000A0" foreColor="white" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="84 - SPS-Fehler"/>
+    <group name="Group5" visible="true" wallpaper="false" isReferenceObject="false">
+        <panel name="HintergrundFuss" height="48" width="480" left="0" top="224" visible="true" isReferenceObject="true" linkSize="true" linkConnections="false" linkAnimations="linkWithoutExpression" linkBaseObject="Kopf_Fuss.HintergrundFuss" backStyle="solid" patternStyle="none" backColor="#ECECEC" patternColor="white" blink="false" description="" borderColor="gray" borderStyle="none" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <group name="Group6" visible="true" wallpaper="false" isReferenceObject="false">
+        <numericDisplay name="NumericDisplay2" height="16" width="110" left="110" top="128" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleRight" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="1" numberOfDigits="10" fillLeftWith="spaces" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.PLCStatus.MaxScanTime}/1000"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay3" height="16" width="110" left="110" top="144" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleRight" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="1" numberOfDigits="10" fillLeftWith="spaces" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <connections>
+                <connection name="Value" expression="{[PLC1]HMI.PLCStatus.LastScanTime}/1000"/>
+            </connections>
+        </numericDisplay>
+        <stringDisplay name="StringDisplay6" height="16" width="190" left="57" top="34" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleLeft" blink="false" wordWrap="true" patternColor="white" patternStyle="none" description="" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <connections>
+                <connection name="Value" expression="{[PLC1]@ProcessorName}"/>
+            </connections>
+        </stringDisplay>
+        <stringDisplay name="StringDisplay7" height="16" width="130" left="110" top="78" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleLeft" blink="false" wordWrap="true" patternColor="white" patternStyle="none" description="" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <connections>
+                <connection name="Value" expression="{[PLC1]@Status}"/>
+            </connections>
+        </stringDisplay>
+        <stringDisplay name="StringDisplay9" height="16" width="130" left="58" top="48" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleLeft" blink="false" wordWrap="true" patternColor="white" patternStyle="none" description="" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <connections>
+                <connection name="Value" expression="{[PLC1]@Revision}"/>
+            </connections>
+        </stringDisplay>
+        <text name="Text2" height="16" width="79" left="5" top="129" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" charHeight="16" bold="false" italic="false" underline="false" strikethrough="false" caption="Max Scan Time"/>
+        <text name="Text3" height="16" width="91" left="5" top="146" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" charHeight="16" bold="false" italic="false" underline="false" strikethrough="false" caption="Cur. Scan Time"/>
+        <text name="Text4" height="16" width="48" left="5" top="34" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" charHeight="16" bold="false" italic="false" underline="false" strikethrough="false" caption="Name"/>
+        <text name="Text5" height="16" width="42" left="5" top="78" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" caption="Status"/>
+        <group name="Group4" visible="true" isReferenceObject="false">
+            <rectangle name="Polygon2" height="20" width="218" left="5" top="93" visible="true" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <animations>
+                    <animateColor expression="if {[PLC1]@Mode} == &quot;Remote Run&quot; then 1&#xA;else    if {[PLC1]@Mode} == &quot;Run&quot; then 1&#xA;else if {[PLC1]@Mode} == &quot;Debug&quot; then 2&#xA;       else IF {[PLC1]@Status} == &quot;Faulted&quot; then 3&#xA;else 0" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="cyan" backColor2="cyan" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="black" foreColor2="black" backBehavior="solid" backColor1="lime" backColor2="lime" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="2" foreBehavior="solid" foreColor1="yellow" foreColor2="yellow" backBehavior="solid" backColor1="yellow" backColor2="yellow" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="3" foreBehavior="blink" foreColor1="white" foreColor2="#F00000" backBehavior="blink" backColor1="#F00000" backColor2="white" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </rectangle>
+            <text name="Text9" height="16" width="44" left="10" top="95" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" caption="Mode"/>
+            <stringDisplay name="StringDisplay11" height="16" width="130" left="110" top="94" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleLeft" blink="false" wordWrap="true" patternColor="white" patternStyle="none" description="" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <connections>
+                    <connection name="Value" expression="{[PLC1]@Mode}"/>
+                </connections>
+            </stringDisplay>
+        </group>
+        <text name="Text10" height="16" width="56" left="5" top="113" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="DP Version"/>
+        <stringDisplay name="StringDisplay12" height="16" width="138" left="110" top="112" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleLeft" blink="false" wordWrap="true" patternColor="white" patternStyle="none" description="" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <connections>
+                <connection name="Value" expression="{[PLC1]@DPVersion}"/>
+            </connections>
+        </stringDisplay>
+        <text name="Text11" height="16" width="76" left="5" top="63" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Is Present?"/>
+        <multistateIndicator name="MultistateIndicator2" height="21" width="137" left="110" top="61" visible="true" isReferenceObject="false" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="8" description="" shape="rectangle" triggerType="value" currentStateId="3" captionOnBorder="false" setLastStateId="4">
+            <states>
+                <state stateId="Error" backColor="gray" borderColor="navy" patternColor="#3F3F3F" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Present" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="gray" borderColor="navy" patternColor="#3F3F3F" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Not Present" color="black" backColor="navy" backStyle="transparent" alignment="middleLeft" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="gray" borderColor="navy" patternColor="#3F3F3F" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Present" color="black" backColor="navy" backStyle="transparent" alignment="middleLeft" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="2" value="2" backColor="gray" borderColor="navy" patternColor="#3F3F3F" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Present" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="3" value="3" backColor="gray" borderColor="navy" patternColor="#3F3F3F" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Present" color="black" backColor="navy" backStyle="transparent" alignment="middleLeft" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]@IsPresent}"/>
+            </connections>
+        </multistateIndicator>
+        <group name="Group2" visible="true" isReferenceObject="false">
+            <numericDisplay name="NumericDisplay4" height="16" width="54" left="110" top="161" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleLeft" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="0" numberOfDigits="5" fillLeftWith="spaces" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <connections>
+                    <connection name="Value" expression="{[PLC1]HMI.PLCStatus.Type}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text12" height="16" width="118" left="5" top="161" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error Code / Type"/>
+            <numericDisplay name="NumericDisplay6" height="16" width="54" left="160" top="161" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleRight" blink="false" patternColor="white" patternStyle="none" description="" decimalPlaces="0" numberOfDigits="5" fillLeftWith="spaces" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <connections>
+                    <connection name="Value" expression="{[PLC1]HMI.PLCStatus.Type}"/>
+                </connections>
+            </numericDisplay>
+            <animations>
+                <animateVisibility expression="IF {[PLC1]@Status} == &quot;Faulted&quot; then 1&#xA;else 0" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group3" visible="true" isReferenceObject="false">
+            <text name="Text14" height="16" width="121" left="5" top="176" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" charHeight="16" bold="false" italic="false" underline="false" strikethrough="false" caption="MajorFault"/>
+            <stringDisplay name="StringDisplay13" height="16" width="138" left="110" top="176" visible="true" isReferenceObject="false" backColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="true" borderWidth="8" foreColor="black" alignment="middleLeft" blink="false" wordWrap="true" patternColor="white" patternStyle="none" description="" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <connections>
+                    <connection name="Value" expression="If {[PLC1]HMI.PLCStatus.Type} ==1 &#xA;  then &quot; Power Loss&quot;&#xA;  else If {[PLC1]HMI.PLCStatus.Type} ==3  then &quot; I/O Fault&quot; &#xA;          else IF {[PLC1]HMI.PLCStatus.Type} == 4  then &quot;Instruction execution&quot;&#xA;                 Else IF {[PLC1]HMI.PLCStatus.Type} ==  5 Then &quot;Fault Handler&quot;&#xA;                         ELSE IF {[PLC1]HMI.PLCStatus.Type} == 6  Then &quot;Watchdog &quot;&#xA;                                   ELSE IF {[PLC1]HMI.PLCStatus.Type} == 7 Then &quot;Stack&quot;&#xA;                                              ELSE IF {[PLC1]HMI.PLCStatus.Type} ==    8  Then &quot;Mode Change&quot;&#xA;                                                         else IF {[PLC1]HMI.PLCStatus.Type} ==   11 Then &quot; Motion &quot; &#xA;Else &quot; no Fault present&quot;"/>
+                </connections>
+            </stringDisplay>
+            <animations>
+                <animateVisibility expression="IF {[PLC1]@Status} == &quot;Faulted&quot; then 1&#xA;else 0" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <text name="Text16" height="16" width="19" left="225" top="128" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" charHeight="16" bold="false" italic="false" underline="false" strikethrough="false" caption="ms"/>
+        <text name="Text17" height="16" width="19" left="225" top="143" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" charHeight="16" bold="false" italic="false" underline="false" strikethrough="false" caption="ms"/>
+    </group>
+    <group name="Group1" visible="true" wallpaper="false" isReferenceObject="false">
+        <text name="Text63" height="18" width="109" left="295" top="30" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="true" alignment="middleLeft" fontFamily="Arial Black" charHeight="18" charWidth="7" bold="true" italic="false" underline="false" strikethrough="false" caption="Minor Fault Bits"/>
+        <text name="Text21" height="16" width="155" left="230" top="48" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Powerup (Bit 1)"/>
+        <text name="Text25" height="16" width="155" left="230" top="68" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="I/O (Bit 3)"/>
+        <text name="Text43" height="16" width="155" left="230" top="88" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Program (Bit 4)"/>
+        <text name="Text45" height="16" width="155" left="230" top="108" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Watchdog (Bit 6)"/>
+        <text name="Text77" height="24" width="155" left="230" top="124" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Memory (Bit 7)"/>
+        <text name="Text78" height="16" width="155" left="230" top="148" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Serial Port (Bit 9)"/>
+        <text name="Text79" height="16" width="155" left="230" top="168" visible="true" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Battery (Bit 10)"/>
+        <multistateIndicator name="MultistateIndicator1" height="18" width="16" left="390" top="48" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Kreuz14x14" alignment="middleCenter" backStyle="transparent" color="black" backColor="white" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.PLCStatus.MinorFault.1}"/>
+            </connections>
+        </multistateIndicator>
+        <multistateIndicator name="MultistateIndicator4" height="16" width="16" left="390" top="68" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Kreuz14x14" alignment="middleCenter" backStyle="transparent" color="black" backColor="white" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.PLCStatus.MinorFault.3}"/>
+            </connections>
+        </multistateIndicator>
+        <multistateIndicator name="MultistateIndicator5" height="16" width="16" left="390" top="88" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Kreuz14x14" alignment="middleCenter" backStyle="transparent" color="black" backColor="white" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.PLCStatus.MinorFault.4}"/>
+            </connections>
+        </multistateIndicator>
+        <multistateIndicator name="MultistateIndicator6" height="16" width="16" left="390" top="108" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Kreuz14x14" alignment="middleCenter" backStyle="transparent" color="black" backColor="white" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.PLCStatus.MinorFault.6}"/>
+            </connections>
+        </multistateIndicator>
+        <multistateIndicator name="MultistateIndicator7" height="16" width="16" left="390" top="128" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Kreuz14x14" alignment="middleCenter" backStyle="transparent" color="black" backColor="white" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.PLCStatus.MinorFault.7}"/>
+            </connections>
+        </multistateIndicator>
+        <multistateIndicator name="MultistateIndicator8" height="16" width="16" left="390" top="148" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Kreuz14x14" alignment="middleCenter" backStyle="transparent" color="black" backColor="white" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.PLCStatus.MinorFault.9}"/>
+            </connections>
+        </multistateIndicator>
+        <multistateIndicator name="MultistateIndicator9" height="16" width="16" left="390" top="168" visible="true" isReferenceObject="false" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="2">
+            <states>
+                <state stateId="Error" backColor="navy" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="0" value="0" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                </state>
+                <state stateId="1" value="1" backColor="white" borderColor="gray" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                    <imageSettings imageName="Kreuz14x14" alignment="middleCenter" backStyle="transparent" color="black" backColor="white" scaled="false" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Indicator" expression="{[PLC1]HMI.PLCStatus.MinorFault.10}"/>
+            </connections>
+        </multistateIndicator>
+    </group>
+    <group name="Register1" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.Register1">
+        <panel name="pnlRegister1" height="42" width="58" left="419" top="23" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.pnlRegister1" backStyle="solid" patternStyle="none" backColor="gray" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="none" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <gotoButton name="btnRegister1" height="48" width="64" left="416" top="20" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.btnRegister1" audio="false" backColor="#D6D6D6" backStyle="transparent" borderStyle="raised" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="gray" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" UseVariableDisplay="false" UseVariableDisplayPosition="false" display="0080 Einstellungen Allgemeines" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="System" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="solid" color="white" backColor="white" scaled="false" blink="false"/>
+        </gotoButton>
+    </group>
+    <group name="Register2" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.Register2">
+        <image name="imgRegister2" height="42" width="58" left="419" top="227" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.imgRegister2" imageBackStyle="solid" imageBackColor="gray" imageColor="white" imageBlink="false" description="" imageName="Info56x76"/>
+        <gotoButton name="btnRegister2" height="48" width="64" left="416" top="224" visible="true" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.btnRegister2" audio="false" backColor="#D6D6D6" backStyle="transparent" borderStyle="raised" borderUsesBackColor="false" borderWidth="4" description="" highlightColor="lime" borderColor="gray" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" displayPosition="false" displayLeftPosition="0" displayTopPosition="0" UseVariableDisplay="false" UseVariableDisplayPosition="false" display="0081 Information" parameterFile="" parameterList="" parameterType="parameterFile" captionOnBorder="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+            <imageSettings imageName="" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="false" blink="false"/>
+        </gotoButton>
+    </group>
+    <panel name="pnlRegister4aktiv" height="48" width="6" left="408" top="68" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Service1.pnlRegister4aktiv" backStyle="solid" patternStyle="none" backColor="#F0F000" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="none" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text1" height="48" width="64" left="416" top="68" visible="true" wallpaper="false" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="white" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="15" bold="true" italic="true" underline="false" strikethrough="false" caption="SPS"/>
+    <returnToButton name="ReturntoDisplayButton1" height="48" width="48" left="0" top="224" visible="true" wallpaper="false" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="Kopf_Fuss.ReturntoDisplayButton1" audio="true" backColor="silver" backStyle="solid" borderStyle="raised" borderUsesBackColor="true" borderWidth="4" description="" highlightColor="lime" borderColor="navy" patternColor="white" patternStyle="none" horizontalMargin="0" verticalMargin="0" shape="rectangle" touch="true" blink="false" captionOnBorder="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" keyAssignment="F1">
+        <caption fontFamily="Arial" fontSize="24" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+        <imageSettings imageName="BTN_ZURUECK48x48" alignment="middleCenter" backStyle="solid" color="white" backColor="navy" scaled="true" blink="false"/>
+    </returnToButton>
+</gfx>
