@@ -1,6 +1,0 @@
-Name: Screens
-Type: ScreensCategoryFolder
-Children:
-- Name: Test1
-  Supertype: BaseScreen
-  ReferenceType: HasComponent
