@@ -248,9 +248,10 @@ def nav_event(target):
     return N("MouseClickEventHandler1", "EventHandler", [
         N("ListenEventType", "PropertyType", DataType="NodeId", Value="/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"),
         N("MethodsToCall", "BaseObjectType", [N("MethodContainer1", "BaseObjectType", [
-            N("ObjectPointer", "NodePointer", [link(f"{LOADER}@NodeId"),
-               N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType")], DataType="NodeId"),
-            DV("Method", "String", "ChangePanel", optional=False),
+            N(f"ns={NS_CB};ObjectPointer", "NodePointer", [
+               N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType"),
+               link(f"{LOADER}@NodeId", True)], DataType="NodeId"),
+            DV(f"ns={NS_CB};Method", "String", "ChangePanel", optional=False),
             N("InputArguments", "BaseObjectType", [
                 DV("NewPanel", "NodeId", f"{SCREENS}/{target}", optional=False),
                 DV("AliasNode", "NodeId", optional=False, ValueRank="ScalarOrOneDimension")])])]),
