@@ -224,6 +224,7 @@ Children:
   - Name: Sessions
     Type: BaseObjectType
 - Name: MainWindow
+  Id: g=81344c99ba255b0c81613638df158064
   Supertype: Window
   Children:
   - Name: Width

@@ -2,6 +2,7 @@ Name: Screens
 Type: ScreensCategoryFolder
 Children:
 - Name: S0020_Produktion
+  Id: g=c4daad77983853b790afdda9410521e0
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
@@ -10494,6 +10495,7 @@ Children:
               DataType: NodePath
               Value: "/Objects/HMI190/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/HMI/InformationLeft/DiameterFoilRoll"
 - Name: S0021_Handbetrieb
+  Id: g=4ac4af85f647562b9ba11def92fc6380
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
@@ -26061,6 +26063,7 @@ Children:
               ModellingRule: Optional
               Value: 2
 - Name: S0060_Diagnose
+  Id: g=59d19a573295568c8243a0c9e8531c56
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
@@ -32343,6 +32346,7 @@ Children:
           Type: PropertyType
           DataType: UInt16
 - Name: S0061_Historie
+  Id: g=d3345497d0835d3b982c8ca1cc35c97e
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
@@ -32996,6 +33000,7 @@ Children:
       ModellingRule: Optional
       Value: 48.0
 - Name: S0080_Einstellungen_Allgemeines
+  Id: g=1a937552f2b1553292dda190b6f33c7d
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
@@ -39214,6 +39219,7 @@ Children:
             Type: PropertyType
             DataType: UInt16
 - Name: S0081_Information
+  Id: g=0d63ae031177557ca1d73db98a6d3206
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
@@ -41005,6 +41011,7 @@ Children:
       ModellingRule: Optional
       Value: 0.0
 - Name: S0084_SPS_Fehler
+  Id: g=4790e092189650d1942c4ecc47af69b5
   Supertype: Screen
   ReferenceType: HasComponent
   Children:
@@ -48299,6 +48306,7 @@ Children:
           Type: PropertyType
           DataType: UInt16
 - Name: S0085_Stationsmerker
+  Id: g=83a72e3635c550e6b7f2c042b95031d7
   Supertype: Screen
   ReferenceType: HasComponent
   Children:

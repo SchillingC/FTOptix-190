@@ -44,9 +44,11 @@ def val(v):
     if isinstance(v, (dict, list)): return json.dumps(v, ensure_ascii=False, separators=(",", ":"))
     return json.dumps(v, ensure_ascii=False)
 
-KEYS = ["Name", "Supertype", "Type", "ReferenceType", "DataType", "ModellingRule", "AccessLevel", "ValueRank", "ArrayDimensions", "Description", "Value"]
+KEYS = ["Name", "Id", "Supertype", "Type", "ReferenceType", "DataType", "ModellingRule", "AccessLevel", "ValueRank", "ArrayDimensions", "Description", "Value"]
 
 def emit(n, ind, out):
+    if "Supertype" in n and "Id" not in n:
+        n = dict(n, Id="g=" + uuid.uuid5(uuid.NAMESPACE_URL, "HMI190/" + n["Name"]).hex)
     pre = " " * ind
     if n.get("Class") == "Reference":
         out += [f"{pre}- Class: Reference", f"{pre}  Target: {n['Target']}", f"{pre}  Direction: Forward"]
@@ -56,6 +58,7 @@ def emit(n, ind, out):
         if k in n:
             v = n[k]
             if k == "Name" and re.search(r"[:\s#]", v): v = f"'{v}'" if "'" not in v else json.dumps(v)
+            elif k == "Id": pass
             elif k in ("Value", "Description"): v = val(v)
             elif k == "ArrayDimensions": v = val(v)
             out.append(f"{pre}{'- ' if first else '  '}{k}: {v}")
@@ -554,7 +557,7 @@ def main():
     engine = "\n".join(ui_src[start:mw])
     engine = engine.replace("RockwellStyleSheet", "DefaultStyleSheet")
     ui = ["Name: UI", "Type: UICategoryFolder", "Children:", style, engine]
-    ui_txt = "\n".join(ui)
+    ui_txt = re.sub(r"\n\s*Id: g=[0-9a-f]+", "", "\n".join(ui))
     out = []
     mainw = {"Name": "MainWindow", "Supertype": "Window", "Children": [
         DV("Width", "Size", 480.0, optional=True), DV("Height", "Size", 272.0, optional=True),
@@ -569,7 +572,6 @@ def main():
     emit(mainw, 0, out)
     ui_txt += "\n" + "\n".join(out) + "\n- File: Screens/Screens.yaml\n"
     ui_txt = ui_txt.replace("Optix_Sample_AzureIoTOperations", PROJ)
-    ui_txt = re.sub(r"\n\s*Id: g=[0-9a-f]+", "", ui_txt)
     os.makedirs(f"{nodes}/UI", exist_ok=True)
     open(f"{nodes}/UI/UI.yaml", "w", encoding="utf-8", newline="\n").write(ui_txt)
     dump({"Name": "Screens", "Type": "ScreensCategoryFolder", "Children": screens}, f"{nodes}/UI/Screens/Screens.yaml")
