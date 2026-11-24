@@ -1,7 +1,6 @@
 Name: Screens
 Type: ScreensCategoryFolder
 Children:
-- Name: S0020_Produktion
 - Name: S0021_Handbetrieb
   Supertype: Screen
   ReferenceType: HasComponent
