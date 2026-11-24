@@ -17,6 +17,24 @@ MODEL = f"/Objects/{PROJ}/Model"
 LOADER = f"/Objects/{PROJ}/UI/MainWindow/PanelLoader1"
 SCREENS = f"/Objects/{PROJ}/UI/Screens"
 WARN = []
+NSP = 18
+LOCALES = ["de-DE", "en-GB", "es-ES", "fr-FR", "ja-JP", "nl-NL", "pl-PL"]
+ALARMS = json.load(open(os.path.join(ROOT, "analysis", "alarms.json"), encoding="utf-8"))
+GROUP = {"E": "EStops", "W": "Warnings", "F": "Faults", "I": "Info", "S": "Stops"}
+LABEL_GROUP = {"lblNotAus": "E", "lblWarnungen": "W", "lblStoerungen": "F", "lblInfo": "I", "lblStopper": "S"}
+
+def alarm_items():
+    """[(prefix, word, bit, key, {locale: text})] without RESERVE placeholders"""
+    de = ALARMS["de-DE"]
+    out = []
+    for i, (g, w, b, txt) in enumerate(de):
+        if txt.upper().startswith("RESERV"): continue
+        key = f"Alarm_{g}{w:02d}_{b:02d}"
+        out.append((g, w, b, key, {l: ALARMS[l][i][3] for l in LOCALES}))
+    return out
+
+def alarm_tag(g, w, b):
+    return f"{TAGS}/HMI/Alarms/{GROUP[g]}/{g}{w:02d}_{b:02d}"
 
 # ---------------------------------------------------------------- YAML emitter
 def val(v):
@@ -422,6 +440,19 @@ def build(e, ox, oy, ctx, ind=0):
         if tg: kids.append(link_prop("Value", "Double", tg[0], True))
         return [N(name, "SpinBox", kids)]
 
+    if t == "alarmStatusList":
+        groups = [LABEL_GROUP[x] for x in e.get("filteredTriggers", "").split(",") if x in LABEL_GROUP]
+        rows = []
+        for g, wd, bit, key, _ in alarm_items():
+            if g not in groups: continue
+            lab = label(f"{g}{wd:02d}_{bit:02d}", "", e, w, 24, extra_expr=DV("Text", "LocalizedText", {"NamespaceIndex": NSP, "TextId": key}))
+            lab["Children"] = [c for c in lab["Children"] if c["Name"] not in ("LeftMargin", "TopMargin", "HorizontalAlignment", "VerticalAlignment")]
+            lab["Children"].append(link_prop("Visible", "Boolean", alarm_tag(g, wd, bit), default=False))
+            rows.append(lab)
+        lst = N("List", "ColumnLayout", [P("HorizontalAlignment", "HorizontalAlignment", 3), P("VerticalAlignment", "VerticalAlignment", 0)] + rows)
+        sv = N("Scroll", "ScrollView", [P("HorizontalAlignment", "HorizontalAlignment", 3), P("VerticalAlignment", "VerticalAlignment", 3), lst])
+        return [N(name, "Rectangle", geo(e, ox, oy) + fill_props(e) + vis + [sv])]
+
     if t in ("alarmStatusList", "alarmList", "alarmBanner", "diagnosticsList", "informationMessageDisplay"):
         WARN.append(f"{ctx.screen}/{e.get('name')}: {t} not converted (alarm system pending)")
         return [N(name, "Rectangle", geo(e, ox, oy) + fill_props(e) + vis + [
@@ -467,6 +498,9 @@ def tag_nodes(csvpath):
         d = tree
         for p in parts[:-1]: d = d.setdefault(p, {})
         d[parts[-1]] = (tag, DT[dt])
+    tree["HMI"]["Alarms"] = {}
+    for g, w, b, key, _ in alarm_items():
+        tree["HMI"]["Alarms"].setdefault(GROUP[g], {})[f"{g}{w:02d}_{b:02d}"] = (f"HMI.Alarms.{GROUP[g]}[{w}].{b}", "Boolean")
     # bit access of PLCStatus.MinorFault (DINT) used by the displays
     d = tree["HMI"]["PLCStatus"]
     mf = d.pop("MinorFault", None)
@@ -547,12 +581,18 @@ def main():
     dump({"Name": "Model", "Type": "ModelCategoryFolder", "Children": mvars}, f"{nodes}/Model/Model.yaml")
 
     # translations (de-DE source language)
-    dump({"Name": "Translations", "Type": "TranslationsCategoryFolder"}, f"{nodes}/Translations/Translations.yaml")
+    items = alarm_items()
+    body = [""] + LOCALES
+    for g, w, b, key, tx in items: body += [key] + [tx[l] for l in LOCALES]
+    dump({"Name": "Translations", "Type": "TranslationsCategoryFolder", "Children": [
+        {"Name": "LocalizationDictionary", "Type": "LocalizationDictionary", "DataType": "String", "ValueRank": "OneOrMoreDimensions",
+         "ArrayDimensions": [0, 0], "Value": {"Type": 12, "Dimensions": [len(items) + 1, len(LOCALES) + 1], "Body": body}}]},
+         f"{nodes}/Translations/Translations.yaml")
 
     # project root node + .optix
     root = open(f"{T}/Nodes/Optix_Sample_AzureIoTOperations.yaml", encoding="utf-8").read()
     root = re.sub(r"\n\s*Id: g=[0-9a-f]+", "", root).replace("Optix_Sample_AzureIoTOperations", PROJ)
-    root = root.replace('Value: ["en-US"]', 'Value: ["de-DE","en-GB","es-ES","fr-FR","ja-JP","pl-PL"]', 1)
+    root = root.replace('Value: ["en-US"]', 'Value: ' + json.dumps(LOCALES), 1)
     root = re.sub(r"- File: '?(OPC-UA|NetLogic)/[^\n]*\n", "", root)
     root = root.replace("- File: Translations/Translations.yaml\n", "- File: Translations/Translations.yaml\n")
     open(f"{nodes}/{PROJ}.yaml", "w", encoding="utf-8", newline="\n").write(root)
