@@ -126,7 +126,7 @@ def col(c, default="#ffffff"):
     return NAMED.get(c.lower(), default)
 
 def fsize(e, default=10):
-    return float(round(float(e.get("fontSize") or default) * 1.33))
+    return float(round(float(e.get("fontSize") or default) * 1.1))
 
 H_ALIGN = {"Left": 0, "Center": 1, "Right": 2}
 def text_align(a):

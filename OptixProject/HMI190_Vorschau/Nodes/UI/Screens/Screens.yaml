@@ -184,7 +184,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 16.0
+          Value: 13.0
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -276,7 +276,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -368,7 +368,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -490,7 +490,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -688,7 +688,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -1171,7 +1171,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -1663,7 +1663,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -2155,7 +2155,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -2647,7 +2647,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -2851,7 +2851,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -2984,7 +2984,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -3117,7 +3117,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -3250,7 +3250,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -3383,7 +3383,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -3434,7 +3434,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -3926,7 +3926,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -4130,7 +4130,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -4263,7 +4263,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -4396,7 +4396,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -4529,7 +4529,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -4662,7 +4662,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -4713,7 +4713,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -4828,7 +4828,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -4880,7 +4880,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -4932,7 +4932,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -4984,7 +4984,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5036,7 +5036,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5088,7 +5088,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5140,7 +5140,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5192,7 +5192,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5244,7 +5244,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5296,7 +5296,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5348,7 +5348,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5400,7 +5400,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5452,7 +5452,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5504,7 +5504,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5556,7 +5556,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5608,7 +5608,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5660,7 +5660,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 16.0
+            Value: 13.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -5796,7 +5796,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -6279,7 +6279,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -6771,7 +6771,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -7263,7 +7263,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -7634,7 +7634,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 16.0
+          Value: 13.0
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
@@ -7726,7 +7726,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -7818,7 +7818,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -7940,7 +7940,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -8111,7 +8111,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -8211,7 +8211,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -8406,7 +8406,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -8539,7 +8539,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -8672,7 +8672,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -8805,7 +8805,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -8938,7 +8938,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -8989,7 +8989,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -9193,7 +9193,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -9326,7 +9326,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -9459,7 +9459,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -9592,7 +9592,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -9725,7 +9725,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -9776,7 +9776,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -9980,7 +9980,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -10113,7 +10113,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -10246,7 +10246,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -10379,7 +10379,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -10512,7 +10512,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -10563,7 +10563,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -10794,7 +10794,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -10927,7 +10927,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -11060,7 +11060,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -11193,7 +11193,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -11326,7 +11326,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -11377,7 +11377,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -11581,7 +11581,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -11714,7 +11714,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -11847,7 +11847,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -11980,7 +11980,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -12113,7 +12113,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -12164,7 +12164,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -12368,7 +12368,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -12501,7 +12501,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -12634,7 +12634,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -12767,7 +12767,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -12900,7 +12900,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -12951,7 +12951,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -13155,7 +13155,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -13288,7 +13288,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -13421,7 +13421,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -13554,7 +13554,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -13687,7 +13687,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -13738,7 +13738,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -13847,7 +13847,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -14042,7 +14042,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -14175,7 +14175,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -14308,7 +14308,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -14441,7 +14441,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -14574,7 +14574,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -14625,7 +14625,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -14856,7 +14856,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -14989,7 +14989,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -15122,7 +15122,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -15255,7 +15255,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -15388,7 +15388,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -15439,7 +15439,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -15643,7 +15643,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -15776,7 +15776,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -15909,7 +15909,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -16042,7 +16042,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -16175,7 +16175,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 11.0
+              Value: 9.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -16226,7 +16226,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -16430,7 +16430,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -16563,7 +16563,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -16696,7 +16696,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -16829,7 +16829,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -16962,7 +16962,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -17013,7 +17013,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -17122,7 +17122,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -17317,7 +17317,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -17450,7 +17450,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -17583,7 +17583,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -17716,7 +17716,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -17849,7 +17849,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -17900,7 +17900,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -18104,7 +18104,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -18237,7 +18237,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -18370,7 +18370,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -18503,7 +18503,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -18636,7 +18636,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 13.0
+              Value: 11.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -18687,7 +18687,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -18918,7 +18918,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -19051,7 +19051,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19103,7 +19103,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19155,7 +19155,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19207,7 +19207,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19259,7 +19259,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19311,7 +19311,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19363,7 +19363,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19415,7 +19415,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19467,7 +19467,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19519,7 +19519,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19571,7 +19571,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19623,7 +19623,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19675,7 +19675,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19727,7 +19727,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19779,7 +19779,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19831,7 +19831,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19883,7 +19883,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19935,7 +19935,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -19987,7 +19987,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20039,7 +20039,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20091,7 +20091,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20143,7 +20143,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20258,7 +20258,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20373,7 +20373,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20425,7 +20425,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20477,7 +20477,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20529,7 +20529,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20581,7 +20581,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20633,7 +20633,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20685,7 +20685,7 @@ Children:
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
-              Value: 16.0
+              Value: 13.0
             - Name: FontWeight
               Type: BaseDataVariableType
               DataType: FontWeightEnum
@@ -20745,7 +20745,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -20867,7 +20867,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -21133,7 +21133,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -21266,7 +21266,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -21399,7 +21399,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -21532,7 +21532,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -21665,7 +21665,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 9.0
+            Value: 8.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -21716,7 +21716,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -21920,7 +21920,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -22053,7 +22053,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -22186,7 +22186,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -22319,7 +22319,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -22452,7 +22452,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -22503,7 +22503,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -22707,7 +22707,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -22840,7 +22840,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -22973,7 +22973,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -23106,7 +23106,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -23239,7 +23239,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -23290,7 +23290,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -23443,7 +23443,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 13.0
+      Value: 11.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -23642,7 +23642,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -23783,7 +23783,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -23875,7 +23875,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -23997,7 +23997,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 13.0
+      Value: 11.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -24052,7 +24052,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 13.0
+      Value: 11.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -24237,7 +24237,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -24356,7 +24356,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 20.0
+        Value: 16.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -24411,7 +24411,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 20.0
+        Value: 16.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -24542,7 +24542,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 21.0
+          Value: 18.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -24597,7 +24597,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 27.0
+        Value: 22.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -24652,7 +24652,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 27.0
+        Value: 22.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -24756,7 +24756,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 21.0
+          Value: 18.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -24807,7 +24807,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 13.0
+      Value: 11.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -24986,7 +24986,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -25041,7 +25041,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 16.0
+      Value: 13.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -25142,7 +25142,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -25320,7 +25320,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 20.0
+        Value: 16.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -25430,7 +25430,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -25575,7 +25575,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 21.0
+        Value: 18.0
       - Name: MinValue
         Type: BaseVariableType
         DataType: Double
@@ -25627,7 +25627,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 21.0
+        Value: 18.0
       - Name: MinValue
         Type: BaseVariableType
         DataType: Double
@@ -25679,7 +25679,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 21.0
+        Value: 18.0
       - Name: MinValue
         Type: BaseVariableType
         DataType: Double
@@ -25784,7 +25784,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 21.0
+          Value: 18.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -25884,7 +25884,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -25958,7 +25958,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 21.0
+        Value: 18.0
       - Name: MinValue
         Type: BaseVariableType
         DataType: Double
@@ -26010,7 +26010,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 21.0
+        Value: 18.0
       - Name: MinValue
         Type: BaseVariableType
         DataType: Double
@@ -26115,7 +26115,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 21.0
+          Value: 18.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -26256,7 +26256,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 15.0
+        Value: 12.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -26451,7 +26451,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -26584,7 +26584,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -26717,7 +26717,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -26850,7 +26850,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -26983,7 +26983,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 11.0
+            Value: 9.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -27034,7 +27034,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -27238,7 +27238,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -27371,7 +27371,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -27504,7 +27504,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -27637,7 +27637,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -27770,7 +27770,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -27821,7 +27821,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -27967,7 +27967,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -28069,7 +28069,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -28188,7 +28188,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 20.0
+        Value: 16.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -28571,7 +28571,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 27.0
+          Value: 22.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -28937,7 +28937,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 27.0
+          Value: 22.0
         - Name: TextColor
           Type: BaseDataVariableType
           DataType: Color
@@ -29303,7 +29303,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 27.0
+        Value: 22.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -29662,7 +29662,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 16.0
+          Value: 13.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -29762,7 +29762,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 16.0
+          Value: 13.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -29862,7 +29862,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 16.0
+          Value: 13.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -29966,7 +29966,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 16.0
+          Value: 13.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -30066,7 +30066,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 16.0
+          Value: 13.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -30166,7 +30166,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -30285,7 +30285,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 15.0
+        Value: 12.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -30463,7 +30463,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 20.0
+        Value: 16.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -30614,7 +30614,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -30785,7 +30785,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 37.0
+        Value: 31.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -31038,7 +31038,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -31233,7 +31233,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -31350,7 +31350,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -31467,7 +31467,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -31571,7 +31571,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -31675,7 +31675,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -31779,7 +31779,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -31879,7 +31879,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -31979,7 +31979,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -32079,7 +32079,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -32247,7 +32247,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -32347,7 +32347,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -32451,7 +32451,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -32551,7 +32551,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -32655,7 +32655,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -32810,7 +32810,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -32930,7 +32930,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33057,7 +33057,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33161,7 +33161,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33261,7 +33261,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33392,7 +33392,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33492,7 +33492,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33573,7 +33573,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33654,7 +33654,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33735,7 +33735,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33816,7 +33816,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33897,7 +33897,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -33978,7 +33978,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -34059,7 +34059,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -34140,7 +34140,7 @@ Children:
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
-            Value: 13.0
+            Value: 11.0
           - Name: FontWeight
             Type: BaseDataVariableType
             DataType: FontWeightEnum
@@ -34262,7 +34262,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -34362,7 +34362,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -34489,7 +34489,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -34589,7 +34589,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -34689,7 +34689,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -34789,7 +34789,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -34889,7 +34889,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -34989,7 +34989,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -35089,7 +35089,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -35189,7 +35189,7 @@ Children:
         - Name: FontSize
           Type: BaseVariableType
           DataType: Size
-          Value: 13.0
+          Value: 11.0
         - Name: FontWeight
           Type: BaseDataVariableType
           DataType: FontWeightEnum
@@ -36372,7 +36372,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 15.0
+        Value: 12.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -36540,7 +36540,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -36740,7 +36740,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 20.0
+        Value: 16.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -36791,7 +36791,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -37043,7 +37043,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -37230,7 +37230,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 15.0
+        Value: 12.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -37398,7 +37398,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 13.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -37508,7 +37508,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 32.0
+      Value: 26.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -37720,7 +37720,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 20.0
+        Value: 16.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -37839,7 +37839,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 20.0
+        Value: 16.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -37998,7 +37998,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -38290,7 +38290,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38591,7 +38591,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -38700,7 +38700,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -38800,7 +38800,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -38851,7 +38851,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 13.0
+      Value: 11.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -38911,7 +38911,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 13.0
+      Value: 11.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -39212,7 +39212,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -39321,7 +39321,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 13.0
+        Value: 11.0
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -39372,7 +39372,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 13.0
+      Value: 11.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
