@@ -602,6 +602,8 @@ def main():
             P("Width", "Size", 480.0), P("Height", "Size", 272.0)])]}
     os.makedirs(f"{O}/ProjectFiles/NetSolution", exist_ok=True)
     shutil.copy(os.path.join(ROOT, "tools", "ClockLogic.cs"), f"{O}/ProjectFiles/NetSolution/ClockLogic.cs")
+    for ext in ("csproj", "sln"):
+        shutil.copy(os.path.join(ROOT, "tools", f"HMI190.{ext}"), f"{O}/ProjectFiles/NetSolution/{PROJ}.{ext}")
     emit(mainw, 0, out)
     ui_txt += "\n" + "\n".join(out) + "\n- File: Screens/Screens.yaml\n"
     ui_txt = ui_txt.replace("Optix_Sample_AzureIoTOperations", PROJ)
