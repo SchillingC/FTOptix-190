@@ -1,0 +1,9 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: Test1
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: Label1
+    Type: Label
