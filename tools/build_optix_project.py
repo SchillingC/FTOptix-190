@@ -189,8 +189,11 @@ def geo(e, ox, oy):
             P("LeftMargin", "Size", float(e.get("left", 0)) - ox), P("TopMargin", "Size", float(e.get("top", 0)) - oy),
             P("Width", "Size", float(e.get("width", 0))), P("Height", "Size", float(e.get("height", 0)))]
 
+PREVIEW = False
+
 def visibility(e):
     props = []
+    if PREVIEW: return props
     anims = e.find("animations")
     if anims is None: return props
     for a in anims.findall("animateVisibility"):
@@ -386,7 +389,7 @@ def build(e, ox, oy, ctx, ind=0):
         if img:
             ctx.images.add(img)
             kids += [DV("ImagePath", "ResourceUri", f"ns=18;%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False),
-                     P("ImageWidth", "Size", w), P("ImageHeight", "Size", h)]
+                     DV("ImageWidth", "Size", w), DV("ImageHeight", "Size", h)]
         typ = "Button"
         if t == "gotoButton":
             target = e.get("display", "")
@@ -426,7 +429,8 @@ def build(e, ox, oy, ctx, ind=0):
                     DV("FillColor", "Color", col(s.get("backColor"), "#ffffff")),
                     DV("BorderColor", "Color", col(s.get("borderColor"), "#808080")),
                     P("BorderThickness", "Size", 0.0 if e.get("borderStyle") == "none" else 2.0),
-                    expr_prop("Visible", "Boolean", "{0} == %s" % s.get("value"), [tg[0]], True) if tg else
+                    (DV("Visible", "Boolean", s is st.findall("state")[1]) if PREVIEW and tg else
+                    expr_prop("Visible", "Boolean", "{0} == %s" % s.get("value"), [tg[0]], True)) if tg else
                     expr_prop("Visible", "Boolean", tr[0] if s.get("value") == "1" else "!(%s)" % tr[0], tr[1], True)]
             sim = s.find("imageSettings")
             img = sim.get("imageName") if sim is not None else ""
@@ -527,8 +531,11 @@ def tag_nodes(csvpath):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--template", required=True)
+    ap.add_argument("--preview", action="store_true", help="ignore visibility animations (everything visible)")
     ap.add_argument("--out", default=os.path.join(ROOT, "OptixProject", PROJ))
     a = ap.parse_args()
+    global PREVIEW
+    PREVIEW = a.preview
     T, O = a.template, a.out
     shutil.rmtree(O, ignore_errors=True)
     os.makedirs(O)

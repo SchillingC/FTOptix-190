@@ -382,11 +382,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/BTN_EINSTELLUNGEN48x48.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -504,11 +504,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/btnDiagnose28x28.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -8974,11 +8974,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/BTN_EINSTELLUNGEN48x48.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -9096,11 +9096,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/btnDiagnose28x28.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -23305,11 +23305,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/historie.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -23427,11 +23427,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/BTN_EINSTELLUNGEN48x48.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -26803,11 +26803,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/BTN_ZURUECK48x48.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -26925,11 +26925,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/Arrow_Up.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
   - Name: MoveDownButton_7
@@ -26980,11 +26980,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/Arrow_Down.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
 - Name: S0080_Einstellungen_Allgemeines
@@ -27284,11 +27284,11 @@ Children:
         DataType: ResourceUri
         Value: "ns=18;%PROJECTDIR%/Images/BENUTZER1.png"
       - Name: ImageWidth
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 48.0
       - Name: ImageHeight
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 48.0
     - Name: btnLogout_6
@@ -27339,11 +27339,11 @@ Children:
         DataType: ResourceUri
         Value: "ns=18;%PROJECTDIR%/Images/Logout.png"
       - Name: ImageWidth
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 48.0
       - Name: ImageHeight
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 48.0
   - Name: Helligkeit_7
@@ -27525,11 +27525,11 @@ Children:
         DataType: ResourceUri
         Value: "ns=18;%PROJECTDIR%/Images/BTN_HelligPlus.png"
       - Name: ImageWidth
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 48.0
       - Name: ImageHeight
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 48.0
     - Name: btnHelligkeitMinus_10
@@ -27580,11 +27580,11 @@ Children:
         DataType: ResourceUri
         Value: "ns=18;%PROJECTDIR%/Images/BTN_HelligMinus.png"
       - Name: ImageWidth
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 48.0
       - Name: ImageHeight
-        Type: BaseVariableType
+        Type: BaseDataVariableType
         DataType: Size
         Value: 48.0
     - Name: txtProzent_11
@@ -27731,11 +27731,11 @@ Children:
       DataType: LocalizedText
       Value: {"LocaleId":"de-DE","Text":""}
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MinHoldTime
@@ -28420,11 +28420,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/btnDiagnose28x28.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -34028,11 +34028,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/BTN_ZURUECK48x48.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -40519,11 +40519,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/BTN_ZURUECK48x48.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
@@ -41236,11 +41236,11 @@ Children:
       DataType: ResourceUri
       Value: "ns=18;%PROJECTDIR%/Images/BTN_ZURUECK48x48.png"
     - Name: ImageWidth
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: ImageHeight
-      Type: BaseVariableType
+      Type: BaseDataVariableType
       DataType: Size
       Value: 48.0
     - Name: MouseClickEventHandler1
