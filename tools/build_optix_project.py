@@ -222,7 +222,7 @@ def label(name, text, e_or_c, w, h, fore=None, link_path=None, extra_expr=None):
             P("TextHorizontalAlignment", "TextHorizontalAlignment", ha), P("TextVerticalAlignment", "TextVerticalAlignment", va),
             DV("TextColor", "Color", col(fore or c.get("foreColor") or c.get("color"), "#000000")),
             P("FontSize", "Size", fsize(c)),
-            P("FontWeight", "FontWeightEnum", 700 if c.get("bold") == "true" else 400),
+            DV("FontWeight", "FontWeightEnum", 700 if c.get("bold") == "true" else 400),
             P("FontItalic", "Boolean", c.get("italic") == "true"),
             P("WordWrap", "Boolean", c.get("wordWrap", "true") == "true")]
     if extra_expr:
@@ -239,7 +239,7 @@ def image_node(name, img, w, h, ctx, left=0.0, top=0.0, color=None):
     kids = [P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
             P("LeftMargin", "Size", left), P("TopMargin", "Size", top), P("Width", "Size", float(w)), P("Height", "Size", float(h)),
             DV("Path", "ResourceUri", f"ns=18;%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False),
-            P("FillMode", "ImageFillModeEnum", 1)]
+            DV("FillMode", "ImageFillModeEnum", 1)]
     return N(name, "Image", kids)
 
 def nav_event(target):
