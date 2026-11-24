@@ -383,7 +383,7 @@ def build(e, ox, oy, ctx, ind=0):
                 if si is not None and si.get("imageName") and stt.get("stateId") not in ("Error",):
                     img = si.get("imageName"); break
         kids = geo(e, ox, oy) + vis
-        kids += [DV("BackgroundColor", "Color", col(e.get("backColor"), "#c0c0c0")), P("FontSize", "Size", fsize(cap if cap is not None else e, 10)),
+        kids += [DV("BackgroundColor", "Color", "#ffffff00" if e.get("backStyle") == "transparent" else col(e.get("backColor"), "#c0c0c0")), P("FontSize", "Size", fsize(cap if cap is not None else e, 10)),
                  DV("TextColor", "Color", col((cap.get("color") if cap is not None else None), "#000000"))]
         kids.append(DV("Text", "LocalizedText", {"LocaleId": "de-DE", "Text": text}))
         if img:
