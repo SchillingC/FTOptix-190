@@ -407,6 +407,15 @@ def build(e, ox, oy, ctx, ind=0):
             out[0]["Children"].append(N(f"State_{s.get('stateId')}", "Rectangle", kids))
         return out
 
+    if t == "barGraph":
+        tg = tag_of(conn(e, "Value"))
+        mn, mx = float(e.get("minValue", 0)), float(e.get("maxValue", 100))
+        fill = [P("HorizontalAlignment", "HorizontalAlignment", 3), P("VerticalAlignment", "VerticalAlignment", 2),
+                DV("FillColor", "Color", col(e.get("fillColor"), "#40ff10")), P("BorderThickness", "Size", 0.0)]
+        if tg:
+            fill.append(expr_prop("Height", "Size", "max(0, min(%s, ({0}-%s)/%s*%s))" % (h, mn, mx - mn, h), [tg[0]]))
+        return [N(name, "Rectangle", geo(e, ox, oy) + fill_props(e) + vis + [N("Level", "Rectangle", fill)])]
+
     if t == "numericInputCursorPoint":
         tg = tag_of(conn(e, "Value"))
         kids = geo(e, ox, oy) + vis + [P("FontSize", "Size", fsize(e)), P("MinValue", "Double", 0.0), P("MaxValue", "Double", 9999.0)]

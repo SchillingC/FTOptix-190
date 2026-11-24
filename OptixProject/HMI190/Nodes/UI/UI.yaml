@@ -247,7 +247,7 @@ Children:
     - Name: Panel
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/HMI190/UI/Screens/S0021_Handbetrieb"
+      Value: "/Objects/HMI190/UI/Screens/S0020_Produktion"
       Children:
       - Name: Kind
         Type: PropertyType

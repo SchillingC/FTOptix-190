@@ -1,4 +1,5 @@
 Polygon2: animateColor not converted
+S0020_Produktion/AlarmStatusListStoerungenD: alarmStatusList not converted (alarm system pending)
 S0060_Diagnose/AlarmStatusListNotAusD: alarmStatusList not converted (alarm system pending)
 S0060_Diagnose/AlarmStatusListStoerungenD: alarmStatusList not converted (alarm system pending)
 S0060_Diagnose/AlarmStatusListWarnungen: alarmStatusList not converted (alarm system pending)
@@ -8,4 +9,6 @@ S0080_Einstellungen_Allgemeines/btnHelligkeitPlus: rampButton has no function ye
 S0080_Einstellungen_Allgemeines/btnLogin: loginButton has no function yet
 S0080_Einstellungen_Allgemeines/btnLogout: logoutButton has no function yet
 S0080_Einstellungen_Allgemeines/btnShutdown: shutdownButton has no function yet
+image missing: BTN_RollenwechselManuell_56x56
+image missing: BTN_Rollenwechsel_vorbereitet_56x56
 image missing: Kreuz14x14
