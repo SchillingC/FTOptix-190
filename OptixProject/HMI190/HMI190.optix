@@ -1,6 +1,6 @@
 Project:
  Name: HMI190
- GUID: ee25de952806449bb444dfe1179ee2fd
+ GUID: a7b1ec1f1afc45f3ac944dfcd602952c
  ProjectNamespaceIndex: 18
  Description: ''
  Company: ''
@@ -74,4 +74,4 @@ Project:
    Module: FTOptix.NetLogic
    Version: 4.0
  Nodes:
-- File: Nodes/HMI190.yaml
+ - File: Nodes/HMI190.yaml

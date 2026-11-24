@@ -551,7 +551,7 @@ def main():
     opt = opt.replace("Optix_Sample_AzureIoTOperations", PROJ)
     opt = re.sub(r"GUID: \w+", "GUID: " + uuid.uuid4().hex, opt)
     opt = re.sub(r"Statistics:.*?(?=Nodes:)", "", opt, flags=re.S)
-    opt = re.sub(r"Nodes:.*", f"Nodes:\n- File: Nodes/{PROJ}.yaml\n", opt, flags=re.S)
+    opt = re.sub(r" Nodes:.*", f" Nodes:\n - File: Nodes/{PROJ}.yaml\n", opt, flags=re.S)
     open(f"{O}/{PROJ}.optix", "w", encoding="utf-8", newline="\n").write(opt)
 
     print(f"screens: {len(screens)}  images: {len(imgs)}  warnings: {len(WARN)}")
