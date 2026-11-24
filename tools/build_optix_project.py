@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJ = "HMI190"
+NS_UI = 11
 NS_CB = 9      # FTOptix.CoreBase in the template's dependency table
 DRV = f"/Objects/{PROJ}/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1"
 TAGS = f"{DRV}/Tags/Controller Tags"
@@ -248,10 +249,10 @@ def nav_event(target):
     return N("MouseClickEventHandler1", "EventHandler", [
         N("ListenEventType", "PropertyType", DataType="NodeId", Value="/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"),
         N("MethodsToCall", "BaseObjectType", [N("MethodContainer1", "BaseObjectType", [
-            N(f"ns={NS_CB};ObjectPointer", "NodePointer", [
+            N(f"ns={NS_UI};ObjectPointer", "NodePointer", [
                N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType"),
                link(f"{LOADER}@NodeId", True)], DataType="NodeId"),
-            DV(f"ns={NS_CB};Method", "String", "ChangePanel", optional=False),
+            DV(f"ns={NS_UI};Method", "String", "ChangePanel", optional=False),
             N("InputArguments", "BaseObjectType", [
                 DV("NewPanel", "NodeId", f"{SCREENS}/{target}", optional=False),
                 DV("AliasNode", "NodeId", optional=False, ValueRank="ScalarOrOneDimension")])])]),
