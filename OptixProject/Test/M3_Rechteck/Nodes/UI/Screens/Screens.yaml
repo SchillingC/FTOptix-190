@@ -1,0 +1,20 @@
+Name: Screens
+Type: ScreensCategoryFolder
+Children:
+- Name: Test1
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: R1
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
