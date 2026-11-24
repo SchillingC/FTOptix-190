@@ -411,7 +411,12 @@ def build(e, ox, oy, ctx, ind=0):
         elif t in ("rampButton", "loginButton", "logoutButton", "shutdownButton", "acknowledgeAlarmButton",
                    "silenceAlarmsButton", "clearAlarmBannerButton", "closeButton", "informationAckButton"):
             WARN.append(f"{ctx.screen}/{e.get('name')}: {t} has no function yet")
-        return [N(name, typ, kids)]
+        btn = N(name, typ, kids)
+        if e.get("backStyle") == "transparent" and e.get("borderStyle") == "raised":
+            bev = N(name + "_Rahmen", "Rectangle", geo(e, ox, oy) + vis + [DV("FillColor", "Color", "#ffffff00"),
+                    DV("BorderColor", "Color", "#a0a0a4"), P("BorderThickness", "Size", 3.0)])
+            return [btn, bev]
+        return [btn]
 
     if t == "multistateIndicator":
         tg = tag_of(conn(e, "Indicator"))
@@ -462,13 +467,13 @@ def build(e, ox, oy, ctx, ind=0):
         rows = []
         for g, wd, bit, key, _ in alarm_items():
             if g not in groups: continue
-            lab = label(f"{g}{wd:02d}_{bit:02d}", "", e, w, 24, extra_expr=DV("Text", "LocalizedText", {"NamespaceIndex": NSP, "TextId": key}))
+            lab = label(f"{g}{wd:02d}_{bit:02d}", "", e, w, 24, fore="#000000", extra_expr=DV("Text", "LocalizedText", {"NamespaceIndex": NSP, "TextId": key}))
             lab["Children"] = [c for c in lab["Children"] if c["Name"] not in ("LeftMargin", "TopMargin", "HorizontalAlignment", "VerticalAlignment")]
             lab["Children"].append(link_prop("Visible", "Boolean", alarm_tag(g, wd, bit), default=False))
             rows.append(lab)
         lst = N("List", "ColumnLayout", [P("HorizontalAlignment", "HorizontalAlignment", 3), P("VerticalAlignment", "VerticalAlignment", 0)] + rows)
         sv = N("Scroll", "ScrollView", [P("HorizontalAlignment", "HorizontalAlignment", 3), P("VerticalAlignment", "VerticalAlignment", 3), lst])
-        return [N(name, "Rectangle", geo(e, ox, oy) + fill_props(e) + vis + [sv])]
+        return [N(name, "Rectangle", geo(e, ox, oy) + fill_props(e) + [DV("BorderColor", "Color", "#000000"), P("BorderThickness", "Size", 2.0)] + vis + [sv])]
 
     if t in ("alarmStatusList", "alarmList", "alarmBanner", "diagnosticsList", "informationMessageDisplay"):
         WARN.append(f"{ctx.screen}/{e.get('name')}: {t} not converted (alarm system pending)")

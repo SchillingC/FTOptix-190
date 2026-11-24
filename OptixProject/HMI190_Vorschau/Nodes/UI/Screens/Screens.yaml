@@ -1197,6 +1197,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLeftReel_12_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: LeftBrake_13
       Type: Panel
       Children:
@@ -1689,6 +1728,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLeftBrake_15_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: LeftReadyForSplice_16
       Type: Panel
       Children:
@@ -2181,6 +2259,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLeftReadyForSplice_18_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
   - Name: Vaccum_19
     Type: Panel
     Children:
@@ -2673,6 +2790,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnVaccum_21_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: Reset_22
     Type: Panel
     Children:
@@ -3460,6 +3616,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnReset_24_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: ManualSplice_25
     Type: Panel
     Children:
@@ -3952,6 +4147,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnManualSplice_27_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: ManualMode_28
     Type: Panel
     Children:
@@ -4739,6 +4973,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnManualMode_30_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: AlarmStatusListStoerungenD_31
     Type: Rectangle
     Children:
@@ -4775,6 +5048,14 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
+      Value: "#000000"
+    - Name: BorderThickness
+      Type: BaseVariableType
+      DataType: Size
+      Value: 2.0
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
       Value: "#000000"
     - Name: BorderThickness
       Type: BaseVariableType
@@ -4824,7 +5105,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -4876,7 +5157,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -4928,7 +5209,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -4980,7 +5261,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5032,7 +5313,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5084,7 +5365,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5136,7 +5417,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5188,7 +5469,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5240,7 +5521,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5292,7 +5573,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5344,7 +5625,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5396,7 +5677,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5448,7 +5729,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5500,7 +5781,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5552,7 +5833,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5604,7 +5885,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -5656,7 +5937,7 @@ Children:
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
-            Value: "#ffffff"
+            Value: "#000000"
           - Name: FontSize
             Type: BaseVariableType
             DataType: Size
@@ -6305,6 +6586,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLRightReadyForSplice_36_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: RightBrake_37
       Type: Panel
       Children:
@@ -6797,6 +7117,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnRightBrake_39_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: RightReel_40
       Type: Panel
       Children:
@@ -7289,6 +7648,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnRightReel_42_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
   - Name: MeasuredLevelRightRoll_43
     Type: Rectangle
     Children:
@@ -9015,6 +9413,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnReset_12_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: CylinderKnife_13
     Type: Panel
     Children:
@@ -9802,6 +10239,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnCylinderKnife_15_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: AutoMode_16
     Type: Panel
     Children:
@@ -10589,6 +11065,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnAutoMode_18_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: Left_19
     Type: Panel
     Children:
@@ -11403,6 +11918,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLeftBrakeAuto_22_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: LeftCylinderGluing_23
       Type: Panel
       Children:
@@ -12190,6 +12744,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLeftCylinderGluing_25_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: LeftVaccum_26
       Type: Panel
       Children:
@@ -12977,6 +13570,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLeftVaccum_28_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: LeftBrake_29
       Type: Panel
       Children:
@@ -13764,6 +14396,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLeftBrake_31_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: Text3_32
       Type: Rectangle
       Children:
@@ -14651,6 +15322,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnLeftCylinder_35_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
   - Name: Right_36
     Type: Panel
     Children:
@@ -15465,6 +16175,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnRightCylinderGluing_39_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: RightVaccum_40
       Type: Panel
       Children:
@@ -16252,6 +17001,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnRightVaccum_42_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: RightBrake_43
       Type: Panel
       Children:
@@ -17039,6 +17827,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnRightBrake_45_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: Text4_46
       Type: Rectangle
       Children:
@@ -17926,6 +18753,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnRighttCylinder_49_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: RightBrakeAuto_50
       Type: Panel
       Children:
@@ -18713,6 +19579,45 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+      - Name: btnRightBrakeAuto_52_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
 - Name: S0060_Diagnose
   Id: g=59d19a573295568c8243a0c9e8531c56
   Supertype: Screen
@@ -19003,6 +19908,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 2.0
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 2.0
       - Name: Scroll
         Type: ScrollView
         Children:
@@ -19047,7 +19960,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19099,7 +20012,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19151,7 +20064,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19203,7 +20116,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19255,7 +20168,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19307,7 +20220,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19359,7 +20272,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19411,7 +20324,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19463,7 +20376,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19515,7 +20428,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19567,7 +20480,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19619,7 +20532,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19671,7 +20584,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19723,7 +20636,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19775,7 +20688,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19827,7 +20740,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19879,7 +20792,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19931,7 +20844,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -19983,7 +20896,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20035,7 +20948,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20087,7 +21000,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20139,7 +21052,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20210,6 +21123,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 2.0
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 2.0
       - Name: Scroll
         Type: ScrollView
         Children:
@@ -20254,7 +21175,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20325,6 +21246,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 2.0
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#000000"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 2.0
       - Name: Scroll
         Type: ScrollView
         Children:
@@ -20369,7 +21298,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20421,7 +21350,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20473,7 +21402,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20525,7 +21454,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20577,7 +21506,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20629,7 +21558,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -20681,7 +21610,7 @@ Children:
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#ffffff"
+              Value: "#000000"
             - Name: FontSize
               Type: BaseVariableType
               DataType: Size
@@ -21742,6 +22671,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnReset_12_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: AutoMode_13
     Type: Panel
     Children:
@@ -22529,6 +23497,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnAutoMode_15_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: ManualMode_16
     Type: Panel
     Children:
@@ -23316,6 +24323,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnManualMode_18_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: Image1_19
     Type: Image
     Children:
@@ -23519,6 +24565,45 @@ Children:
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
+  - Name: GotoDisplayButton1_22_Rahmen
+    Type: Rectangle
+    Children:
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      Value: 0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      Value: 0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 223.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 225.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      Value: 46.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      Value: 46.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff00"
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#a0a0a4"
+    - Name: BorderThickness
+      Type: BaseVariableType
+      DataType: Size
+      Value: 3.0
 - Name: S0061_Historie
   Id: g=d3345497d0835d3b982c8ca1cc35c97e
   Supertype: Screen
@@ -25218,6 +26303,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister2_19_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: Register4_20
     Type: Panel
     Children:
@@ -25396,6 +26520,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister4_22_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: btnDiagnose_23
     Type: Button
     Children:
@@ -27060,6 +28223,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnAutoMode_38_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: ManualMode_39
     Type: Panel
     Children:
@@ -27847,6 +29049,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnManualMode_41_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: MultistateIndicator1_42
     Type: Rectangle
     Children:
@@ -28264,6 +29505,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnStationsmerker_45_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: Sprache_46
     Type: Panel
     Children:
@@ -28657,6 +29937,45 @@ Children:
             - Name: Severity
               Type: PropertyType
               DataType: UInt16
+      - Name: lsbDeutsch_49_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 64.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
     - Name: Englisch_USA_50
       Type: Panel
       Children:
@@ -29023,6 +30342,45 @@ Children:
             - Name: Severity
               Type: PropertyType
               DataType: UInt16
+      - Name: lsbEnglisch_USA_52_Rahmen
+        Type: Rectangle
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 64.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 48.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff00"
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#a0a0a4"
+        - Name: BorderThickness
+          Type: BaseVariableType
+          DataType: Size
+          Value: 3.0
   - Name: Spanisch_53
     Type: Panel
     Children:
@@ -29389,6 +30747,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: lsbSpanisch_55_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
 - Name: S0081_Information
   Id: g=0d63ae031177557ca1d73db98a6d3206
   Supertype: Screen
@@ -30361,6 +31758,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister1_13_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: Register4_14
     Type: Panel
     Children:
@@ -30539,6 +31975,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister4_16_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: pnlRegister2aktiv_17
     Type: Rectangle
     Children:
@@ -36448,6 +37923,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister1_50_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: Register2_51
     Type: Panel
     Children:
@@ -36616,6 +38130,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister2_53_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: pnlRegister4aktiv_54
     Type: Rectangle
     Children:
@@ -37306,6 +38859,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister1_7_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: Register2_8
     Type: Panel
     Children:
@@ -37474,6 +39066,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister2_10_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: ReturntoDisplayButton1_11
     Type: Button
     Children:
@@ -37915,6 +39546,45 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+    - Name: btnRegister4_16_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 64.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 48.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: txtLeftReel_17
     Type: Rectangle
     Children:
@@ -38316,6 +39986,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnSM_SD_Off_21_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 56.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 56.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: msiSM_SD_On1_22
     Type: Rectangle
     Children:
@@ -38617,6 +40326,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnSM_SD_Off1_25_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 56.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 56.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: txtLeftReel1_26
     Type: Rectangle
     Children:
@@ -38877,6 +40625,45 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+  - Name: LatchedPushButton1_28_Rahmen
+    Type: Rectangle
+    Children:
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      Value: 0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      Value: 0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 255.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 94.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      Value: 56.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      Value: 56.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff00"
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#a0a0a4"
+    - Name: BorderThickness
+      Type: BaseVariableType
+      DataType: Size
+      Value: 3.0
   - Name: LatchedPushButton2_29
     Type: Button
     Children:
@@ -38937,6 +40724,45 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+  - Name: LatchedPushButton2_29_Rahmen
+    Type: Rectangle
+    Children:
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      Value: 0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      Value: 0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 256.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 31.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      Value: 56.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      Value: 56.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff00"
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#a0a0a4"
+    - Name: BorderThickness
+      Type: BaseVariableType
+      DataType: Size
+      Value: 3.0
   - Name: msiSM_SD_On2_30
     Type: Rectangle
     Children:
@@ -39238,6 +41064,45 @@ Children:
             Type: BaseVariableType
             DataType: DynamicLinkMode
             Value: 2
+    - Name: btnSM_SD_Off2_33_Rahmen
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 56.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 56.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#a0a0a4"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 3.0
   - Name: txtLeftReel3_34
     Type: Rectangle
     Children:
@@ -39398,3 +41263,42 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+  - Name: LatchedPushButton3_35_Rahmen
+    Type: Rectangle
+    Children:
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      Value: 0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      Value: 0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 255.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 158.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      Value: 56.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      Value: 56.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff00"
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#a0a0a4"
+    - Name: BorderThickness
+      Type: BaseVariableType
+      DataType: Size
+      Value: 3.0
