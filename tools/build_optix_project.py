@@ -5,7 +5,7 @@ Usage: build_optix_project.py --template <clone of FactoryTalk-Optix/Optix_Sampl
 Reads the display exports and analysis/HMI_flat_tags.csv from the repository root and
 writes OptixProject/HMI190/.
 """
-import argparse, csv, glob, json, os, re, shutil, sys, uuid
+import argparse, copy, csv, glob, json, os, re, shutil, sys, uuid
 import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -227,7 +227,7 @@ def fill_props(e, transparent_default=False):
     border = e.get("borderStyle", "none")
     return [DV("FillColor", "Color", col(e.get("backColor")) if solid else "#ffffff00", optional=True),
             DV("BorderColor", "Color", col(e.get("borderColor"), "#808080"), optional=True),
-            P("BorderThickness", "Size", 0.0 if border == "none" else float(min(int(e.get("borderWidth", 2) or 2), 2)))]
+            P("BorderThickness", "Size", 0.0 if border in ("none", "raised", "inset") else float(min(int(e.get("borderWidth", 2) or 2), 2)))]
 
 def label(name, text, e_or_c, w, h, fore=None, link_path=None, extra_expr=None):
     c = e_or_c
@@ -313,6 +313,23 @@ def state_caption(st):
     c = st.find("caption")
     return (c.get("caption") if c is not None else "") or ""
 
+def bevel(e, name, ox, oy, vis):
+    """4 thin edge rectangles (light/dark) that imitate the raised/inset 3D border of the original"""
+    style = e.get("borderStyle")
+    if style not in ("raised", "inset"): return []
+    w, h = float(e.get("width", 0) or 0), float(e.get("height", 0) or 0)
+    th = float(min(int(e.get("borderWidth", 2) or 2), 3))
+    if w <= 2 * th or h <= 2 * th: return []
+    l, t = float(e.get("left", 0)) - ox, float(e.get("top", 0)) - oy
+    lt, dk = ("#ffffff", "#404040") if style == "raised" else ("#404040", "#ffffff")
+    out = []
+    for suf, x, y, ww, hh, c in (("_Bo", l, t, w, th, lt), ("_Bl", l, t, th, h, lt),
+                                 ("_Bu", l, t + h - th, w, th, dk), ("_Br", l + w - th, t, th, h, dk)):
+        out.append(N(name + suf, "Rectangle", [P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
+                     P("LeftMargin", "Size", x), P("TopMargin", "Size", y), P("Width", "Size", ww), P("Height", "Size", hh),
+                     DV("FillColor", "Color", c), P("BorderThickness", "Size", 0.0)] + copy.deepcopy(vis)))
+    return out
+
 def build(e, ox, oy, ctx, ind=0):
     """returns list of nodes for element e (positions relative to (ox,oy))"""
     t = e.tag
@@ -335,7 +352,7 @@ def build(e, ox, oy, ctx, ind=0):
                                   P("Height", "Size", bt - tp)] + vis + inner)]
 
     if t in ("rectangle", "panel", "line"):
-        return [N(name, "Rectangle", geo(e, ox, oy) + fill_props(e) + vis)]
+        return [N(name, "Rectangle", geo(e, ox, oy) + fill_props(e) + vis)] + (bevel(e, name, ox, oy, vis) if t != "line" else [])
 
     if t == "text":
         return [N(name, "Rectangle", geo(e, ox, oy) + fill_props(e) + vis + [label("Text", e.get("caption", ""), e, w, h)])]
@@ -431,11 +448,7 @@ def build(e, ox, oy, ctx, ind=0):
                    "silenceAlarmsButton", "clearAlarmBannerButton", "closeButton", "informationAckButton"):
             WARN.append(f"{ctx.screen}/{e.get('name')}: {t} has no function yet")
         btn = N(name, typ, kids)
-        if e.get("backStyle") == "transparent" and e.get("borderStyle") == "raised":
-            bev = N(name + "_Rahmen", "Rectangle", geo(e, ox, oy) + vis + [DV("FillColor", "Color", "#ffffff00"),
-                    DV("BorderColor", "Color", "#a0a0a4"), P("BorderThickness", "Size", 3.0)])
-            return [btn, bev]
-        return [btn]
+        return [btn] + bevel(e, name, ox, oy, vis)
 
     if t == "multistateIndicator":
         tg = tag_of(conn(e, "Indicator"))
