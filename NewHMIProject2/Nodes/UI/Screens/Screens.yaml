@@ -284,7 +284,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -412,7 +412,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -9422,7 +9422,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -9550,7 +9550,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -24524,7 +24524,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -24652,7 +24652,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -28248,7 +28248,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -28376,7 +28376,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 11.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -28431,7 +28431,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 11.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -28735,7 +28735,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 0.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -28790,7 +28790,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 16.0
+        Value: 0.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -28976,7 +28976,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 22.0
+        Value: 0.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -29031,7 +29031,7 @@ Children:
       - Name: FontSize
         Type: BaseVariableType
         DataType: Size
-        Value: 22.0
+        Value: 0.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -29186,7 +29186,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 11.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -29962,7 +29962,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -36000,7 +36000,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -42587,7 +42587,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -43400,7 +43400,7 @@ Children:
     - Name: FontSize
       Type: BaseVariableType
       DataType: Size
-      Value: 26.0
+      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
