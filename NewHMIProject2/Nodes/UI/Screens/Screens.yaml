@@ -281,10 +281,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#a0a0a4"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -409,10 +405,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#a0a0a4"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -9419,10 +9411,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#a0a0a4"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -9547,10 +9535,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#a0a0a4"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -24521,10 +24505,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#c0c0c0"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -24649,10 +24629,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#a0a0a4"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -28245,10 +28221,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#c0c0c0"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -28373,10 +28345,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#c0c0c0"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -28428,10 +28396,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#c0c0c0"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -28732,10 +28696,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#a0a0a4"
-      - Name: FontSize
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -28787,10 +28747,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#a0a0a4"
-      - Name: FontSize
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -28973,10 +28929,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#a0a0a4"
-      - Name: FontSize
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -29028,10 +28980,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         Value: "#a0a0a4"
-      - Name: FontSize
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -29183,10 +29131,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#c0c0c0"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -29959,10 +29903,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#a0a0a4"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -35997,10 +35937,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#c0c0c0"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -42584,10 +42520,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#c0c0c0"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
@@ -43397,10 +43329,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       Value: "#c0c0c0"
-    - Name: FontSize
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
     - Name: TextColor
       Type: BaseDataVariableType
       DataType: Color
