@@ -329,6 +329,7 @@ def build(e, ox, oy, ctx, ind=0):
         r, bt = max(b[2] for b in boxes), max(b[3] for b in boxes)
         inner = []
         for c in kids: inner += build(c, l, tp, ctx, ind + 1)
+        inner.sort(key=lambda n: n["Name"].startswith("TimeDateDisplay"))  # keep the clock above overlapping header fields
         return [N(name, "Panel", [P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
                                   P("LeftMargin", "Size", l - ox), P("TopMargin", "Size", tp - oy), P("Width", "Size", r - l),
                                   P("Height", "Size", bt - tp)] + vis + inner)]
