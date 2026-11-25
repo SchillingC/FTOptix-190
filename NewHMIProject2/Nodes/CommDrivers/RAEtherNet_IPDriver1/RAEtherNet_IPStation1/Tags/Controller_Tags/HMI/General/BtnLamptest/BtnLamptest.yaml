@@ -1,0 +1,43 @@
+Name: BtnLamptest
+Type: FolderType
+Children:
+- Name: Enable
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.BtnLamptest.Enable"
+- Name: Handshake
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.BtnLamptest.Handshake"
+- Name: Msi
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.BtnLamptest.Msi"
+- Name: On
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.BtnLamptest.On"
+- Name: Visible
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.BtnLamptest.Visible"

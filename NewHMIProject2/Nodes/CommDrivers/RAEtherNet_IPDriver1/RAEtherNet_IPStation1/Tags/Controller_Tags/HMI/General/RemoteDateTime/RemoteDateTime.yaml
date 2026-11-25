@@ -1,0 +1,59 @@
+Name: RemoteDateTime
+Type: FolderType
+Children:
+- Name: Year
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.RemoteDateTime.Year"
+- Name: Month
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.RemoteDateTime.Month"
+- Name: Day
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.RemoteDateTime.Day"
+- Name: Hour
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.RemoteDateTime.Hour"
+- Name: Minute
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.RemoteDateTime.Minute"
+- Name: Second
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.RemoteDateTime.Second"
+- Name: Microseconds
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.General.RemoteDateTime.Microseconds"

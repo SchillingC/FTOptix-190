@@ -405,7 +405,8 @@ def build(e, ox, oy, ctx, ind=0):
         kids.append(DV("Text", "LocalizedText", {"LocaleId": "de-DE", "Text": text}))
         if img:
             ctx.images.add(img)
-            kids = [k for k in kids if k["Name"] != "FontSize"]  # type default is Auto, which shows the image at full size
+            for k in kids:
+                if k["Name"] == "FontSize": k["Value"] = -1.0  # Auto: Optix shows the image at full size
             kids += [DV("ImagePath", "ResourceUri", f"ns={NSP};%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False),
                      DV("ImageWidth", "Size", w), DV("ImageHeight", "Size", h)]
         typ = "Button"

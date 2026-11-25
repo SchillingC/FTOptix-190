@@ -1,0 +1,99 @@
+Name: InformationLeft
+Type: FolderType
+Children:
+- Name: SelectRole
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.SelectRole"
+- Name: OpenTackHead
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.OpenTackHead"
+- Name: FixMaterialVacuumOn
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.FixMaterialVacuumOn"
+- Name: CloseTackHead
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.CloseTackHead"
+- Name: ReadyForWCU
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.ReadyForWCU"
+- Name: WCUActiv
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.WCUActiv"
+- Name: ActivateTensionAxle
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.ActivateTensionAxle"
+- Name: ActivateReelBrake
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.ActivateReelBrake"
+- Name: StartWCU
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.StartWCU"
+- Name: WCUTime
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.WCUTime"
+- Name: PressureClampingAxis
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.PressureClampingAxis"
+- Name: DiameterFoilRoll
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.InformationLeft.DiameterFoilRoll"

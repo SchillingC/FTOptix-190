@@ -1,0 +1,43 @@
+Name: ReelBrake
+Type: FolderType
+Children:
+- Name: Enable
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.ManualLeft.ReelBrake.Enable"
+- Name: Handshake
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.ManualLeft.ReelBrake.Handshake"
+- Name: Msi
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.ManualLeft.ReelBrake.Msi"
+- Name: On
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.ManualLeft.ReelBrake.On"
+- Name: Visible
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "HMI.ManualLeft.ReelBrake.Visible"
