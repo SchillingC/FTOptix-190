@@ -367,7 +367,7 @@ def build(e, ox, oy, ctx, ind=0):
                                  P("TextVerticalAlignment", "TextVerticalAlignment", 1), DV("TextColor", "Color", col(e.get("foreColor"))),
                                  P("FontSize", "Size", fsize(e)),
                                  DV("Text", "LocalizedText", None, [N("StringFormatter1", "StringFormatter", [
-                                     DV("Format", "LocalizedText", {"LocaleId": "", "Text": "{0:HH:mm:ss}"}, ReferenceType="HasParameter", optional=True),
+                                     DV("Format", "LocalizedText", {"LocaleId": "", "Text": "{0:T}"}, ReferenceType="HasParameter", optional=True),
                                      {"Name": f"ns={NS_CB};Source0", "Type": "BaseDataVariableType", "DataType": "BaseDataType",
                                       "ReferenceType": "HasSource", "Children": [link(f"/Objects/{PROJ}/NetLogic/ClockLogic/Time")]}])])])])]
 

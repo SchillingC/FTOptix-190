@@ -10755,7 +10755,7 @@ Children:
             ReferenceType: HasParameter
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"","Text":"{0:HH:mm:ss}"}
+            Value: {"LocaleId":"","Text":"{0:T}"}
           - Name: ns=2;Source0
             Type: BaseDataVariableType
             ReferenceType: HasSource
@@ -26028,7 +26028,7 @@ Children:
             ReferenceType: HasParameter
             DataType: LocalizedText
             ModellingRule: Optional
-            Value: {"LocaleId":"","Text":"{0:HH:mm:ss}"}
+            Value: {"LocaleId":"","Text":"{0:T}"}
           - Name: ns=2;Source0
             Type: BaseDataVariableType
             ReferenceType: HasSource
