@@ -350,7 +350,7 @@ def build(e, ox, oy, ctx, ind=0):
                                  P("TextVerticalAlignment", "TextVerticalAlignment", 1), DV("TextColor", "Color", col(e.get("foreColor"))),
                                  P("FontSize", "Size", fsize(e)),
                                  DV("Text", "LocalizedText", None, [N("StringFormatter1", "StringFormatter", [
-                                     DV("Format", "LocalizedText", {"LocaleId": "", "Text": "{0:g}"}, ReferenceType="HasParameter", optional=True),
+                                     DV("Format", "LocalizedText", {"LocaleId": "", "Text": "{0:HH:mm:ss}"}, ReferenceType="HasParameter", optional=True),
                                      {"Name": f"ns={NS_CB};Source0", "Type": "BaseDataVariableType", "DataType": "BaseDataType",
                                       "ReferenceType": "HasSource", "Children": [link(f"/Objects/{PROJ}/NetLogic/ClockLogic/Time")]}])])])])]
 
@@ -526,7 +526,14 @@ def build_screen(path):
     for c in root:
         if c.tag in ("displaySettings",): continue
         kids += [k for k in build(c, 0, 0, ctx) if k]
-    kids.sort(key=lambda n: n["Name"].startswith("Kopfzeile"))  # header group holds the clock; must be drawn last
+    # lift the clock out of its group so it is drawn above the page-name field
+    def margin(n, k): return next(c["Value"] for c in n["Children"] if c["Name"] == k)
+    for g in [k for k in kids if k["Name"].startswith("Kopfzeile")]:
+        for c in [c for c in g["Children"] if c["Name"].startswith("TimeDateDisplay")]:
+            g["Children"].remove(c)
+            for m in ("LeftMargin", "TopMargin"):
+                next(x for x in c["Children"] if x["Name"] == m)["Value"] += margin(g, m)
+            kids.append(c)
     return {"Name": sname, "Supertype": "Screen", "ReferenceType": "HasComponent", "Children": kids}, ctx
 
 # ---------------------------------------------------------------- project files
