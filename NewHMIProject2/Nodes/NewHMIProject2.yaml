@@ -9,13 +9,13 @@ Children:
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["de-DE", "en-GB", "es-ES", "fr-FR", "ja-JP", "nl-NL", "pl-PL"]
   - Name: LocaleFallbackList
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["de-DE"]
 - Name: Authentication
   Type: PropertyGroup
   Children:

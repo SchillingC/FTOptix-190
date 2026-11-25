@@ -12,13 +12,21 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJ = "HMI190"
 NS_UI = 11
 NS_CB = 9      # FTOptix.CoreBase in the template's dependency table
+NSP = 18
+BASE = None    # --base <project folder>: fill an existing Studio-created project instead of building from the sample
+if "--base" in sys.argv:
+    BASE = os.path.abspath(sys.argv[sys.argv.index("--base") + 1])
+    _o = open(glob.glob(os.path.join(BASE, "*.optix"))[0], encoding="utf-8").read()
+    PROJ = re.search(r"^ Name: (\S+)", _o, re.M).group(1)
+    NSP = int(re.search(r"ProjectNamespaceIndex: (\d+)", _o).group(1))
+    _ns = {u: int(i) for i, u in re.findall(r"^  (\d+):\n   Uri: '?([^'\n]+)'?", _o, re.M)}
+    NS_CB, NS_UI = _ns["urn:FTOptix:CoreBase"], _ns["urn:FTOptix:UI"]
 DRV = f"/Objects/{PROJ}/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1"
 TAGS = f"{DRV}/Tags/Controller Tags"
 MODEL = f"/Objects/{PROJ}/Model"
 LOADER = f"/Objects/{PROJ}/UI/MainWindow/PanelLoader1"
 SCREENS = f"/Objects/{PROJ}/UI/Screens"
 WARN = []
-NSP = 18
 LOCALES = ["de-DE", "en-GB", "es-ES", "fr-FR", "ja-JP", "nl-NL", "pl-PL"]
 ALARMS = json.load(open(os.path.join(ROOT, "analysis", "alarms.json"), encoding="utf-8"))
 GROUP = {"E": "EStops", "W": "Warnings", "F": "Faults", "I": "Info", "S": "Stops"}
@@ -245,7 +253,7 @@ def image_node(name, img, w, h, ctx, left=0.0, top=0.0, color=None):
     ctx.images.add(img)
     kids = [P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
             P("LeftMargin", "Size", left), P("TopMargin", "Size", top), P("Width", "Size", float(w)), P("Height", "Size", float(h)),
-            DV("Path", "ResourceUri", f"ns=18;%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False)]
+            DV("Path", "ResourceUri", f"ns={NSP};%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False)]
     return N(name, "Image", kids)
 
 def nav_event(target):
@@ -340,7 +348,7 @@ def build(e, ox, oy, ctx, ind=0):
                                  P("Width", "Size", w), P("Height", "Size", h), P("TextHorizontalAlignment", "TextHorizontalAlignment", 2),
                                  P("TextVerticalAlignment", "TextVerticalAlignment", 1), DV("TextColor", "Color", col(e.get("foreColor"))),
                                  P("FontSize", "Size", fsize(e)),
-                                 link_prop("Text", "LocalizedText", f"/Objects/{PROJ}/UI/MainWindow/ClockLogic/Time")])])]
+                                 link_prop("Text", "LocalizedText", f"/Objects/{PROJ}/NetLogic/ClockLogic/Time")])])]
 
     if t in ("stringDisplay", "numericDisplay"):
         ex = conn(e, "Value")
@@ -393,7 +401,7 @@ def build(e, ox, oy, ctx, ind=0):
         kids.append(DV("Text", "LocalizedText", {"LocaleId": "de-DE", "Text": text}))
         if img:
             ctx.images.add(img)
-            kids += [DV("ImagePath", "ResourceUri", f"ns=18;%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False),
+            kids += [DV("ImagePath", "ResourceUri", f"ns={NSP};%PROJECTDIR%/Images/{sanitize(img)}.png", optional=False),
                      DV("ImageWidth", "Size", w), DV("ImageHeight", "Size", h)]
         typ = "Button"
         if t == "gotoButton":
@@ -540,17 +548,74 @@ def tag_nodes(csvpath):
         return N(name, "FolderType", [conv(k, x) for k, x in v.items()])
     return N("Controller Tags", "FolderType", [conv(k, v) for k, v in tree["HMI"].items() and [("HMI", tree["HMI"])]])
 
+def finish_base(O, nodes, screens, imgs):
+    """Write only our content into the Studio-created project; keep everything else untouched."""
+    ui_path = f"{nodes}/UI/UI.yaml"
+    ui = open(ui_path, encoding="utf-8").read()
+    mwid = re.search(r"- Name: MainWindow\r?\n  Id: (g=[0-9a-f]+)", ui)
+    ui = ui[:ui.index("- Name: MainWindow")] if "- Name: MainWindow" in ui else ui
+    out = []
+    mw = main_window()
+    if mwid: mw["Id"] = mwid.group(1)  # keep the template's node id (referenced by StartWindow)
+    emit(mw, 0, out)
+    open(ui_path, "w", encoding="utf-8", newline="\n").write(
+        ui + "\n".join(out) + "\n- File: Screens/Screens.yaml\n- File: Keyboards/Keyboards.yaml\n")
+    dump({"Name": "Screens", "Type": "ScreensCategoryFolder", "Children": screens}, f"{nodes}/UI/Screens/Screens.yaml")
+    mvars = [DV(n, t, {"Boolean": False, "Int32": 0, "String": ""}[t], optional=False) for n, t in LOCAL_VARS.items()]
+    for v in mvars:
+        if v["Name"].startswith("UserHasCode"): v["Value"] = True
+    dump({"Name": "Model", "Type": "ModelCategoryFolder", "Children": mvars}, f"{nodes}/Model/Model.yaml")
+    write_translations(nodes)
+    rp = f"{nodes}/{PROJ}.yaml"
+    root = open(rp, encoding="utf-8").read()
+    root = re.sub(r'(Name: Locales\n(?:.*\n){3,5}?\s+Value: )\["en-US"\]', lambda m: m.group(1) + json.dumps(LOCALES), root, count=1)
+    root = re.sub(r'(Name: LocaleFallbackList\n(?:.*\n){3,5}?\s+Value: )\["en-US"\]', lambda m: m.group(1) + '["de-DE"]', root, count=1)
+    open(rp, "w", encoding="utf-8", newline="\n").write(root)
+    os.makedirs(f"{O}/ProjectFiles/Images", exist_ok=True)
+    for im in sorted(imgs):
+        src = f"/root/png/{im}.png"
+        if os.path.exists(src): shutil.copy(src, f"{O}/ProjectFiles/Images/{sanitize(im)}.png")
+    open(f"{O}/CONVERSION_WARNINGS.txt", "w", encoding="utf-8").write("\n".join(sorted(set(WARN))) + "\n")
+    for f in (rp, ui_path, f"{nodes}/UI/Screens/Screens.yaml", f"{nodes}/Model/Model.yaml", f"{nodes}/Translations/Translations.yaml"):
+        b = open(f, "rb").read().replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")  # Studio writes CRLF
+        open(f, "wb").write(b)
+    print(f"base: {PROJ} ns={NSP} CB={NS_CB} UI={NS_UI} screens: {len(screens)} images: {len(imgs)} warnings: {len(WARN)}")
+
+def main_window():
+    return {"Name": "MainWindow", "Supertype": "Window", "Children": [
+        DV("Width", "Size", 480.0, optional=True), DV("Height", "Size", 272.0, optional=True),
+        DV("Caption", "String", PROJ, optional=False),
+        N("PanelLoader1", "PanelLoader", [
+            N("Panel", "NodePointer", [N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container")],
+              DataType="NodeId", Value=f"{SCREENS}/{RETURN_TARGET}"),
+            N("CurrentPanel", "NodePointer", [N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item")],
+              DataType="NodeId", AccessLevel="Read"),
+            {"Class": "Reference", "Target": f"ns={NS_UI};i=478"},
+            P("HorizontalAlignment", "HorizontalAlignment", 0), P("VerticalAlignment", "VerticalAlignment", 0),
+            P("Width", "Size", 480.0), P("Height", "Size", 272.0)])]}
+
+def write_translations(nodes):
+    items = alarm_items()
+    body = [""] + LOCALES
+    for g, w, b, key, tx in items: body += [key] + [tx[l] for l in LOCALES]
+    dump({"Name": "Translations", "Type": "TranslationsCategoryFolder", "Children": [
+        {"Name": "LocalizationDictionary1", "Type": "LocalizationDictionary", "DataType": "String", "ValueRank": "OneOrMoreDimensions",
+         "ArrayDimensions": [0, 0], "Value": {"Type": 12, "Dimensions": [len(items) + 1, len(LOCALES) + 1], "Body": body}}]},
+         f"{nodes}/Translations/Translations.yaml")
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--template", required=True)
+    ap.add_argument("--template")
     ap.add_argument("--preview", action="store_true", help="ignore visibility animations (everything visible)")
     ap.add_argument("--out", default=os.path.join(ROOT, "OptixProject", PROJ))
+    ap.add_argument("--base")
     a = ap.parse_args()
     global PREVIEW
     PREVIEW = a.preview
-    T, O = a.template, a.out
-    shutil.rmtree(O, ignore_errors=True)
-    os.makedirs(O)
+    T, O = a.template, (BASE or a.out)
+    if not BASE:
+        shutil.rmtree(O, ignore_errors=True)
+        os.makedirs(O)
 
     pages = sorted(f for f in glob.glob(os.path.join(ROOT, "*.xml"))
                    if re.match(r"\d{4} ", os.path.basename(f)))
@@ -572,8 +637,10 @@ def main():
         if os.path.exists(src): shutil.copy(src, f"{O}/ProjectFiles/Images/{sanitize(im)}.png")
         else: WARN.append(f"image missing: {im}")
 
-    # template based files
     nodes = f"{O}/Nodes"
+    if BASE:
+        return finish_base(O, nodes, screens, imgs)
+    # template based files
     shutil.copytree(f"{T}/Nodes/CommDrivers", f"{nodes}/CommDrivers")
     shutil.copytree(f"{T}/Nodes/Security", f"{nodes}/Security")
     for d in ("OPC-UA", "NetLogic"): pass
@@ -590,7 +657,7 @@ def main():
     out = []
     mainw = {"Name": "MainWindow", "Supertype": "Window", "Children": [
         DV("Width", "Size", 480.0, optional=True), DV("Height", "Size", 272.0, optional=True),
-        DV("Caption", "String", "HMI190", optional=False),
+        DV("Caption", "String", PROJ, optional=False),
         N("ClockLogic", "NetLogic", [DV("Time", "DateTime", optional=False), DV("UTCTime", "DateTime", optional=False)]),
         N("PanelLoader1", "PanelLoader", [
             N("Panel", "NodePointer", [N("Kind", "PropertyType", DataType="NodeId", Value="/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container")],

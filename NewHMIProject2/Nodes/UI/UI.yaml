@@ -231,19 +231,55 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 800.0
+    Value: 480.0
   - Name: Height
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 600.0
+    Value: 272.0
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
+    Value: "NewHMIProject2"
+  - Name: PanelLoader1
+    Type: PanelLoader
     Children:
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "/Objects/NewHMIProject2@BrowseName"
+    - Name: Panel
+      Type: NodePointer
+      DataType: NodeId
+      Value: "/Objects/NewHMIProject2/UI/Screens/S0020_Produktion"
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Class: Reference
+      Target: ns=3;i=478
+      Direction: Forward
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      Value: 0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      Value: 0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      Value: 480.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      Value: 272.0
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
