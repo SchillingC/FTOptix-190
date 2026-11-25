@@ -321,7 +321,7 @@ def bevel(e, name, ox, oy, vis):
     th = float(min(int(e.get("borderWidth", 2) or 2), 3))
     if w <= 2 * th or h <= 2 * th: return []
     l, t = float(e.get("left", 0)) - ox, float(e.get("top", 0)) - oy
-    lt, dk = ("#ffffff", "#404040") if style == "raised" else ("#404040", "#ffffff")
+    lt, dk = ("#909090", "#404040") if style == "raised" else ("#404040", "#909090")
     out = []
     for suf, x, y, ww, hh, c in (("_Bo", l, t, w, th, lt), ("_Bl", l, t, th, h, lt),
                                  ("_Bu", l, t + h - th, w, th, dk), ("_Br", l + w - th, t, th, h, dk)):
