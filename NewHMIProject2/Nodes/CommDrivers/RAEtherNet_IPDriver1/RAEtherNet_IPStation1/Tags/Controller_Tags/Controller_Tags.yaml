@@ -1,0 +1,2378 @@
+Name: 'Controller Tags'
+Type: FolderType
+Children:
+- Name: HMI
+  Type: FolderType
+  Children:
+  - Name: Alarms
+    Type: FolderType
+    Children:
+    - Name: EStops
+      Type: FolderType
+      Children:
+      - Name: E00_00
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.EStops[0].0"
+    - Name: Warnings
+      Type: FolderType
+      Children:
+      - Name: W00_00
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Warnings[0].0"
+      - Name: W00_01
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Warnings[0].1"
+      - Name: W00_02
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Warnings[0].2"
+      - Name: W00_03
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Warnings[0].3"
+      - Name: W00_04
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Warnings[0].4"
+      - Name: W00_05
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Warnings[0].5"
+      - Name: W00_06
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Warnings[0].6"
+    - Name: Faults
+      Type: FolderType
+      Children:
+      - Name: F00_00
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].0"
+      - Name: F00_01
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].1"
+      - Name: F00_02
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].2"
+      - Name: F00_03
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].3"
+      - Name: F00_04
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].4"
+      - Name: F00_05
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].5"
+      - Name: F00_06
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].6"
+      - Name: F00_07
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].7"
+      - Name: F00_08
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].8"
+      - Name: F00_09
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].9"
+      - Name: F00_10
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].10"
+      - Name: F00_11
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].11"
+      - Name: F00_12
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].12"
+      - Name: F00_13
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].13"
+      - Name: F00_14
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].14"
+      - Name: F00_15
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[0].15"
+      - Name: F01_00
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[1].0"
+      - Name: F01_01
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[1].1"
+      - Name: F01_02
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[1].2"
+      - Name: F01_03
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[1].3"
+      - Name: F01_04
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[1].4"
+      - Name: F01_05
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Faults[1].5"
+    - Name: Info
+      Type: FolderType
+      Children:
+      - Name: I00_00
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].0"
+      - Name: I00_01
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].1"
+      - Name: I00_02
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].2"
+      - Name: I00_03
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].3"
+      - Name: I00_04
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].4"
+      - Name: I00_05
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].5"
+      - Name: I00_06
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].6"
+      - Name: I00_07
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].7"
+      - Name: I00_08
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].8"
+      - Name: I00_09
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].9"
+      - Name: I00_10
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].10"
+      - Name: I00_11
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].11"
+      - Name: I00_12
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].12"
+      - Name: I00_13
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].13"
+      - Name: I00_14
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].14"
+      - Name: I00_15
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[0].15"
+      - Name: I01_00
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.Alarms.Info[1].0"
+  - Name: CylFixingLeft
+    Type: FolderType
+    Children:
+    - Name: WorkingPosition
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingLeft.WorkingPosition.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingLeft.WorkingPosition.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingLeft.WorkingPosition.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingLeft.WorkingPosition.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingLeft.WorkingPosition.Visible"
+  - Name: CylGluingLeft
+    Type: FolderType
+    Children:
+    - Name: WorkingPosition
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingLeft.WorkingPosition.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingLeft.WorkingPosition.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingLeft.WorkingPosition.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingLeft.WorkingPosition.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingLeft.WorkingPosition.Visible"
+  - Name: CylFixingRight
+    Type: FolderType
+    Children:
+    - Name: WorkingPosition
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingRight.WorkingPosition.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingRight.WorkingPosition.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingRight.WorkingPosition.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingRight.WorkingPosition.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylFixingRight.WorkingPosition.Visible"
+  - Name: CylGluingRight
+    Type: FolderType
+    Children:
+    - Name: WorkingPosition
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingRight.WorkingPosition.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingRight.WorkingPosition.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingRight.WorkingPosition.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingRight.WorkingPosition.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylGluingRight.WorkingPosition.Visible"
+  - Name: CylSeperatingKnife
+    Type: FolderType
+    Children:
+    - Name: WorkingPosition
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylSeperatingKnife.WorkingPosition.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylSeperatingKnife.WorkingPosition.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylSeperatingKnife.WorkingPosition.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylSeperatingKnife.WorkingPosition.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.CylSeperatingKnife.WorkingPosition.Visible"
+  - Name: General
+    Type: FolderType
+    Children:
+    - Name: Automatic
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Automatic.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Automatic.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Automatic.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Automatic.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Automatic.Visible"
+    - Name: Manual
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Manual.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Manual.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Manual.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Manual.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Manual.Visible"
+    - Name: SpliceManual
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.SpliceManual.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.SpliceManual.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.SpliceManual.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.SpliceManual.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.SpliceManual.Visible"
+    - Name: Reset
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Reset.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Reset.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Reset.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Reset.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Reset.Visible"
+    - Name: Vacuum
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Vacuum.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Vacuum.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Vacuum.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Vacuum.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.Vacuum.Visible"
+    - Name: ActiveDisplayNo
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.General.ActiveDisplayNo"
+    - Name: Language
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.General.Language"
+    - Name: RemoteDateTimeStrobe
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.General.RemoteDateTimeStrobe"
+    - Name: RemoteDisplayNo
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.General.RemoteDisplayNo"
+    - Name: BtnClockEnter
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnClockEnter.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnClockEnter.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnClockEnter.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnClockEnter.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnClockEnter.Visible"
+    - Name: BtnLamptest
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnLamptest.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnLamptest.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnLamptest.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnLamptest.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.BtnLamptest.Visible"
+    - Name: ActualDateTime
+      Type: FolderType
+      Children:
+      - Name: Year
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.ActualDateTime.Year"
+      - Name: Month
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.ActualDateTime.Month"
+      - Name: Day
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.ActualDateTime.Day"
+      - Name: Hour
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.ActualDateTime.Hour"
+      - Name: Minute
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.ActualDateTime.Minute"
+      - Name: Second
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.ActualDateTime.Second"
+      - Name: Microseconds
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.ActualDateTime.Microseconds"
+    - Name: PanelDateTime
+      Type: FolderType
+      Children:
+      - Name: Year
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.PanelDateTime.Year"
+      - Name: Month
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.PanelDateTime.Month"
+      - Name: Day
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.PanelDateTime.Day"
+      - Name: Hour
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.PanelDateTime.Hour"
+      - Name: Minute
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.PanelDateTime.Minute"
+      - Name: Second
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.PanelDateTime.Second"
+      - Name: Microseconds
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.PanelDateTime.Microseconds"
+    - Name: PLCProgName
+      Type: RAEtherNetIPTag
+      DataType: String
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.General.PLCProgName"
+    - Name: RemoteDateTime
+      Type: FolderType
+      Children:
+      - Name: Year
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.RemoteDateTime.Year"
+      - Name: Month
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.RemoteDateTime.Month"
+      - Name: Day
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.RemoteDateTime.Day"
+      - Name: Hour
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.RemoteDateTime.Hour"
+      - Name: Minute
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.RemoteDateTime.Minute"
+      - Name: Second
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.RemoteDateTime.Second"
+      - Name: Microseconds
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.General.RemoteDateTime.Microseconds"
+    - Name: MsgBox
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.General.MsgBox"
+  - Name: InformationLeft
+    Type: FolderType
+    Children:
+    - Name: SelectRole
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.SelectRole"
+    - Name: OpenTackHead
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.OpenTackHead"
+    - Name: FixMaterialVacuumOn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.FixMaterialVacuumOn"
+    - Name: CloseTackHead
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.CloseTackHead"
+    - Name: ReadyForWCU
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.ReadyForWCU"
+    - Name: WCUActiv
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.WCUActiv"
+    - Name: ActivateTensionAxle
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.ActivateTensionAxle"
+    - Name: ActivateReelBrake
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.ActivateReelBrake"
+    - Name: StartWCU
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.StartWCU"
+    - Name: WCUTime
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.WCUTime"
+    - Name: PressureClampingAxis
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.PressureClampingAxis"
+    - Name: DiameterFoilRoll
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationLeft.DiameterFoilRoll"
+  - Name: InformationRight
+    Type: FolderType
+    Children:
+    - Name: SelectRole
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.SelectRole"
+    - Name: OpenTackHead
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.OpenTackHead"
+    - Name: FixMaterialVacuumOn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.FixMaterialVacuumOn"
+    - Name: CloseTackHead
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.CloseTackHead"
+    - Name: ReadyForWCU
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.ReadyForWCU"
+    - Name: WCUActiv
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.WCUActiv"
+    - Name: ActivateTensionAxle
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.ActivateTensionAxle"
+    - Name: ActivateReelBrake
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.ActivateReelBrake"
+    - Name: StartWCU
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.StartWCU"
+    - Name: WCUTime
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.WCUTime"
+    - Name: PressureClampingAxis
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.PressureClampingAxis"
+    - Name: DiameterFoilRoll
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationRight.DiameterFoilRoll"
+  - Name: ManualLeft
+    Type: FolderType
+    Children:
+    - Name: Vacuum
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.Vacuum.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.Vacuum.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.Vacuum.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.Vacuum.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.Vacuum.Visible"
+    - Name: ReelBrakeAutomatic
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrakeAutomatic.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrakeAutomatic.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrakeAutomatic.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrakeAutomatic.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrakeAutomatic.Visible"
+    - Name: ReelBrake
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrake.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrake.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrake.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrake.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualLeft.ReelBrake.Visible"
+  - Name: ManualRight
+    Type: FolderType
+    Children:
+    - Name: Vacuum
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.Vacuum.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.Vacuum.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.Vacuum.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.Vacuum.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.Vacuum.Visible"
+    - Name: ReelBrakeAutomatic
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrakeAutomatic.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrakeAutomatic.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrakeAutomatic.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrakeAutomatic.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrakeAutomatic.Visible"
+    - Name: ReelBrake
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrake.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrake.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrake.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrake.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ManualRight.ReelBrake.Visible"
+  - Name: PreparationLeft
+    Type: FolderType
+    Children:
+    - Name: ReadyForSplice
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReadyForSplice.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReadyForSplice.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReadyForSplice.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReadyForSplice.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReadyForSplice.Visible"
+    - Name: ReelBrake
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReelBrake.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReelBrake.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReelBrake.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReelBrake.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationLeft.ReelBrake.Visible"
+  - Name: PreparationRight
+    Type: FolderType
+    Children:
+    - Name: ReadyForSplice
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReadyForSplice.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReadyForSplice.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReadyForSplice.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReadyForSplice.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReadyForSplice.Visible"
+    - Name: ReelBrake
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReelBrake.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReelBrake.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReelBrake.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReelBrake.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PreparationRight.ReelBrake.Visible"
+  - Name: ReelSelectionLeft
+    Type: FolderType
+    Children:
+    - Name: Selection
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionLeft.Selection.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionLeft.Selection.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionLeft.Selection.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionLeft.Selection.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionLeft.Selection.Visible"
+  - Name: ReelSelectionRight
+    Type: FolderType
+    Children:
+    - Name: Selection
+      Type: FolderType
+      Children:
+      - Name: Enable
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionRight.Selection.Enable"
+      - Name: Handshake
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionRight.Selection.Handshake"
+      - Name: Msi
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionRight.Selection.Msi"
+      - Name: On
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionRight.Selection.On"
+      - Name: Visible
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.ReelSelectionRight.Selection.Visible"
+  - Name: PLCStatus
+    Type: FolderType
+    Children:
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.PLCStatus.Type"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.PLCStatus.Code"
+    - Name: LastScanTime
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.PLCStatus.LastScanTime"
+    - Name: MaxScanTime
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.PLCStatus.MaxScanTime"
+    - Name: LedStatus
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.PLCStatus.LedStatus"
+    - Name: MajorFault
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.PLCStatus.MajorFault"
+    - Name: Watchdog
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.PLCStatus.Watchdog"
+    - Name: PLCFaultActive
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.PLCStatus.PLCFaultActive"
+    - Name: MinorFault
+      Type: FolderType
+      Children:
+      - Name: 0
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.0"
+      - Name: 1
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.1"
+      - Name: 2
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.2"
+      - Name: 3
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.3"
+      - Name: 4
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.4"
+      - Name: 5
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.5"
+      - Name: 6
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.6"
+      - Name: 7
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.7"
+      - Name: 8
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.8"
+      - Name: 9
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.9"
+      - Name: 10
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.10"
+      - Name: 11
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.11"
+      - Name: 12
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.12"
+      - Name: 13
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.13"
+      - Name: 14
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.14"
+      - Name: 15
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.15"
+      - Name: 16
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.16"
+      - Name: 17
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.17"
+      - Name: 18
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.18"
+      - Name: 19
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.19"
+      - Name: 20
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.20"
+      - Name: 21
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.21"
+      - Name: 22
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.22"
+      - Name: 23
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.23"
+      - Name: 24
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.24"
+      - Name: 25
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.25"
+      - Name: 26
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.26"
+      - Name: 27
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.27"
+      - Name: 28
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.28"
+      - Name: 29
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.29"
+      - Name: 30
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.30"
+      - Name: 31
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "HMI.PLCStatus.MinorFault.31"
+  - Name: InformaionInterface
+    Type: FolderType
+    Children:
+    - Name: ControlerOn
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformaionInterface.ControlerOn"
+    - Name: ReadyForChange
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformaionInterface.ReadyForChange"
+    - Name: ReelChange
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformaionInterface.ReelChange"
+    - Name: RWmanual
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformaionInterface.RWmanual"
+    - Name: FastStop
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformaionInterface.FastStop"
+  - Name: InformationGeneral
+    Type: FolderType
+    Children:
+    - Name: PressurePneumatics
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationGeneral.PressurePneumatics"
+    - Name: PressureWebtension
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationGeneral.PressureWebtension"
+  - Name: InformationPID
+    Type: FolderType
+    Children:
+    - Name: FestoonPositionPreset
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.FestoonPositionPreset"
+    - Name: FestoonPositionActual
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.FestoonPositionActual"
+    - Name: OutControler_P
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.OutControler_P"
+    - Name: OutControler_I
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.OutControler_I"
+    - Name: OutControlerAll
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.OutControlerAll"
+    - Name: AnalogOutput
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.AnalogOutput"
+    - Name: P_Gain
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.P_Gain"
+    - Name: I_Gain
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.I_Gain"
+    - Name: D_Gain
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.InformationPID.D_Gain"
+  - Name: Enable
+    Type: FolderType
+    Children:
+    - Name: Short_Dancer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.Enable.Short_Dancer"
+    - Name: Long_Dancer
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.Enable.Long_Dancer"
+    - Name: Vacuum_Supply
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "HMI.Enable.Vacuum_Supply"

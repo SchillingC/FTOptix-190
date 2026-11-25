@@ -550,6 +550,7 @@ def tag_nodes(csvpath):
 
 def finish_base(O, nodes, screens, imgs):
     """Write only our content into the Studio-created project; keep everything else untouched."""
+    tag_files = []
     ui_path = f"{nodes}/UI/UI.yaml"
     ui = open(ui_path, encoding="utf-8").read()
     mwid = re.search(r"- Name: MainWindow\r?\n  Id: (g=[0-9a-f]+)", ui)
@@ -566,6 +567,12 @@ def finish_base(O, nodes, screens, imgs):
         if v["Name"].startswith("UserHasCode"): v["Value"] = True
     dump({"Name": "Model", "Type": "ModelCategoryFolder", "Children": mvars}, f"{nodes}/Model/Model.yaml")
     write_translations(nodes)
+    tdir = f"{nodes}/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags"
+    if os.path.isdir(tdir):
+        os.makedirs(f"{tdir}/Controller_Tags", exist_ok=True)
+        dump(tag_nodes(os.path.join(ROOT, "analysis", "HMI_flat_tags.csv")), f"{tdir}/Controller_Tags/Controller_Tags.yaml")
+        open(f"{tdir}/Tags.yaml", "wb").write(b"Name: Tags\r\nType: FolderType\r\nChildren:\r\n- File: Controller_Tags/Controller_Tags.yaml\r\n")
+        tag_files.append(f"{tdir}/Controller_Tags/Controller_Tags.yaml")
     rp = f"{nodes}/{PROJ}.yaml"
     root = open(rp, encoding="utf-8").read()
     root = re.sub(r'(Name: Locales\n(?:.*\n){3,5}?\s+Value: )\["en-US"\]', lambda m: m.group(1) + json.dumps(LOCALES), root, count=1)
@@ -576,7 +583,7 @@ def finish_base(O, nodes, screens, imgs):
         src = f"/root/png/{im}.png"
         if os.path.exists(src): shutil.copy(src, f"{O}/ProjectFiles/Images/{sanitize(im)}.png")
     open(f"{O}/CONVERSION_WARNINGS.txt", "w", encoding="utf-8").write("\n".join(sorted(set(WARN))) + "\n")
-    for f in (rp, ui_path, f"{nodes}/UI/Screens/Screens.yaml", f"{nodes}/Model/Model.yaml", f"{nodes}/Translations/Translations.yaml"):
+    for f in (*tag_files, rp, ui_path, f"{nodes}/UI/Screens/Screens.yaml", f"{nodes}/Model/Model.yaml", f"{nodes}/Translations/Translations.yaml"):
         b = open(f, "rb").read().replace(b"\r\n", b"\n").replace(b"\n", b"\r\n")  # Studio writes CRLF
         open(f, "wb").write(b)
     print(f"base: {PROJ} ns={NSP} CB={NS_CB} UI={NS_UI} screens: {len(screens)} images: {len(imgs)} warnings: {len(WARN)}")
