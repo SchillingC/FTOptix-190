@@ -41,172 +41,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       Value: 0.0
-  - Name: Kopfzeile_1
-    Type: Panel
-    Children:
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      Value: 0
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      Value: 0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      Value: 1.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      Value: 480.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      Value: 20.0
-    - Name: Hintergrund_2
-      Type: Rectangle
-      Children:
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        Value: 0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        Value: 480.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        Value: 20.0
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#0000a0"
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#808080"
-      - Name: BorderThickness
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
-    - Name: TimeDateDisplay_3
-      Type: Rectangle
-      Children:
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        Value: 0
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        Value: 0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 400.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        Value: 80.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        Value: 20.0
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff00"
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#000080"
-      - Name: BorderThickness
-        Type: BaseVariableType
-        DataType: Size
-        Value: 0.0
-      - Name: Clock
-        Type: Label
-        Children:
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          Value: 0
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          Value: 0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          Value: 80.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          Value: 20.0
-        - Name: TextHorizontalAlignment
-          Type: BaseVariableType
-          DataType: TextHorizontalAlignment
-          Value: 2
-        - Name: TextVerticalAlignment
-          Type: BaseVariableType
-          DataType: TextVerticalAlignment
-          Value: 1
-        - Name: TextColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#ffffff"
-        - Name: FontSize
-          Type: BaseVariableType
-          DataType: Size
-          Value: 13.0
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Children:
-          - Name: StringFormatter1
-            Type: StringFormatter
-            Children:
-            - Name: Format
-              Type: BaseDataVariableType
-              ReferenceType: HasParameter
-              DataType: LocalizedText
-              ModellingRule: Optional
-              Value: {"LocaleId":"","Text":"{0:g}"}
-            - Name: ns=2;Source0
-              Type: BaseDataVariableType
-              ReferenceType: HasSource
-              DataType: BaseDataType
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "/Objects/NewHMIProject2/NetLogic/ClockLogic/Time"
   - Name: txtSeitenname_4
     Type: Rectangle
     Children:
@@ -9139,46 +8973,6 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "/Objects/NewHMIProject2/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/HMI/InformationLeft/DiameterFoilRoll"
-- Name: S0021_Handbetrieb
-  Id: g=4ac4af85f647562b9ba11def92fc6380
-  Supertype: Screen
-  ReferenceType: HasComponent
-  Children:
-  - Name: HorizontalAlignment
-    Type: BaseVariableType
-    DataType: HorizontalAlignment
-    Value: 0
-  - Name: VerticalAlignment
-    Type: BaseVariableType
-    DataType: VerticalAlignment
-    Value: 0
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    Value: 480.0
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    Value: 272.0
-  - Name: Background
-    Type: Rectangle
-    Children:
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      Value: 3
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      Value: 3
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#ffffff"
-    - Name: BorderThickness
-      Type: BaseVariableType
-      DataType: Size
-      Value: 0.0
   - Name: Kopfzeile_1
     Type: Panel
     Children:
@@ -9345,6 +9139,46 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "/Objects/NewHMIProject2/NetLogic/ClockLogic/Time"
+- Name: S0021_Handbetrieb
+  Id: g=4ac4af85f647562b9ba11def92fc6380
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    Value: 0
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    Value: 0
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    Value: 480.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    Value: 272.0
+  - Name: Background
+    Type: Rectangle
+    Children:
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      Value: 3
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+    - Name: BorderThickness
+      Type: BaseVariableType
+      DataType: Size
+      Value: 0.0
   - Name: txtSeitenname_4
     Type: Rectangle
     Children:
@@ -22468,6 +22302,172 @@ Children:
           Type: BaseVariableType
           DataType: Size
           Value: 3.0
+  - Name: Kopfzeile_1
+    Type: Panel
+    Children:
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      Value: 0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      Value: 0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 0.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      Value: 1.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      Value: 480.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      Value: 20.0
+    - Name: Hintergrund_2
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 480.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#0000a0"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#808080"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: TimeDateDisplay_3
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        Value: 0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        Value: 0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 400.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 80.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 20.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#ffffff00"
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000080"
+      - Name: BorderThickness
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+      - Name: Clock
+        Type: Label
+        Children:
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          Value: 0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 80.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 20.0
+        - Name: TextHorizontalAlignment
+          Type: BaseVariableType
+          DataType: TextHorizontalAlignment
+          Value: 2
+        - Name: TextVerticalAlignment
+          Type: BaseVariableType
+          DataType: TextVerticalAlignment
+          Value: 1
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#ffffff"
+        - Name: FontSize
+          Type: BaseVariableType
+          DataType: Size
+          Value: 13.0
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Children:
+          - Name: StringFormatter1
+            Type: StringFormatter
+            Children:
+            - Name: Format
+              Type: BaseDataVariableType
+              ReferenceType: HasParameter
+              DataType: LocalizedText
+              ModellingRule: Optional
+              Value: {"LocaleId":"","Text":"{0:g}"}
+            - Name: ns=2;Source0
+              Type: BaseDataVariableType
+              ReferenceType: HasSource
+              DataType: BaseDataType
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/NewHMIProject2/NetLogic/ClockLogic/Time"
 - Name: S0060_Diagnose
   Id: g=59d19a573295568c8243a0c9e8531c56
   Supertype: Screen

@@ -526,6 +526,7 @@ def build_screen(path):
     for c in root:
         if c.tag in ("displaySettings",): continue
         kids += [k for k in build(c, 0, 0, ctx) if k]
+    kids.sort(key=lambda n: n["Name"].startswith("Kopfzeile"))  # header group holds the clock; must be drawn last
     return {"Name": sname, "Supertype": "Screen", "ReferenceType": "HasComponent", "Children": kids}, ctx
 
 # ---------------------------------------------------------------- project files
