@@ -1,6 +1,0 @@
-S0061_Historie/Historie: alarmList not converted (alarm system pending)
-S0080_Einstellungen_Allgemeines/btnHelligkeitMinus: rampButton has no function yet
-S0080_Einstellungen_Allgemeines/btnHelligkeitPlus: rampButton has no function yet
-S0080_Einstellungen_Allgemeines/btnLogin: loginButton has no function yet
-S0080_Einstellungen_Allgemeines/btnLogout: logoutButton has no function yet
-S0080_Einstellungen_Allgemeines/btnShutdown: shutdownButton has no function yet
