@@ -348,7 +348,10 @@ def build(e, ox, oy, ctx, ind=0):
                                  P("Width", "Size", w), P("Height", "Size", h), P("TextHorizontalAlignment", "TextHorizontalAlignment", 2),
                                  P("TextVerticalAlignment", "TextVerticalAlignment", 1), DV("TextColor", "Color", col(e.get("foreColor"))),
                                  P("FontSize", "Size", fsize(e)),
-                                 link_prop("Text", "LocalizedText", f"/Objects/{PROJ}/NetLogic/ClockLogic/Time")])])]
+                                 DV("Text", "LocalizedText", None, [N("StringFormatter1", "StringFormatter", [
+                                     DV("Format", "LocalizedText", {"LocaleId": "", "Text": "{0:g}"}, ReferenceType="HasParameter", optional=True),
+                                     {"Name": f"ns={NS_CB};Source0", "Type": "BaseDataVariableType", "DataType": "BaseDataType",
+                                      "ReferenceType": "HasSource", "Children": [link(f"/Objects/{PROJ}/NetLogic/ClockLogic/Time")]}])])])])]
 
     if t in ("stringDisplay", "numericDisplay"):
         ex = conn(e, "Value")
@@ -568,7 +571,7 @@ def finish_base(O, nodes, screens, imgs):
     dump({"Name": "Model", "Type": "ModelCategoryFolder", "Children": mvars}, f"{nodes}/Model/Model.yaml")
     write_translations(nodes)
     tdir = f"{nodes}/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags"
-    if os.path.isdir(tdir):
+    if os.path.isdir(tdir) and not os.path.isdir(f"{tdir}/Controller_Tags/HMI"):  # Studio already split imported tags
         os.makedirs(f"{tdir}/Controller_Tags", exist_ok=True)
         dump(tag_nodes(os.path.join(ROOT, "analysis", "HMI_flat_tags.csv")), f"{tdir}/Controller_Tags/Controller_Tags.yaml")
         open(f"{tdir}/Tags.yaml", "wb").write(b"Name: Tags\r\nType: FolderType\r\nChildren:\r\n- File: Controller_Tags/Controller_Tags.yaml\r\n")

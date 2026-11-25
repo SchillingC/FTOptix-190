@@ -1,0 +1,4 @@
+Name: CylGluingLeft
+Type: FolderType
+Children:
+- File: WorkingPosition/WorkingPosition.yaml
