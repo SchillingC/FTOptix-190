@@ -1,6 +1,0 @@
-Name: ManualRight
-Type: FolderType
-Children:
-- File: Vacuum/Vacuum.yaml
-- File: ReelBrakeAutomatic/ReelBrakeAutomatic.yaml
-- File: ReelBrake/ReelBrake.yaml
