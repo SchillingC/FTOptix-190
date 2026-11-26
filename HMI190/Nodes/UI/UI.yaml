@@ -268,9 +268,11 @@ Children:
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
+      Value: 0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
+      Value: 0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
