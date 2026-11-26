@@ -1,0 +1,30 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Helligkeit
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: SM_LongDancerOff
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: SM_ShortDancerOff
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: SM_VacuumSupplyOff
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: UserHasCode_A
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: UserHasCode_B
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: UserHasCode_C
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: CurrentUserName
+  Type: BaseDataVariableType
+  DataType: String
