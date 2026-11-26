@@ -10,7 +10,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/NewHMIProject2/Security"
+      Value: "/Objects/HMI190/Security"
       Children:
       - Name: Kind
         Type: PropertyType
@@ -43,7 +43,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: "/Objects/NewHMIProject2/Alarms"
+      Value: "/Objects/HMI190/Alarms"
       Children:
       - Name: Kind
         Type: PropertyType

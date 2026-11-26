@@ -1,0 +1,12 @@
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\bin\HMI190.deps.json
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\bin\HMI190.dll
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\bin\HMI190.pdb
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\HMI190.csproj.AssemblyReference.cache
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\HMI190.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\HMI190.AssemblyInfoInputs.cache
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\HMI190.AssemblyInfo.cs
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\HMI190.csproj.CoreCompileInputs.cache
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\HMI190.dll
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\refint\HMI190.dll
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\HMI190.pdb
+C:\Users\Entwickler\Desktop\HMI190\HMI190\ProjectFiles\NetSolution\obj\Debug\ref\HMI190.dll
